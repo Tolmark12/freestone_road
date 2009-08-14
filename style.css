@@ -71,7 +71,7 @@ img						{margin: 12px;}
 /***************************
 		Footer		       * 
 ****************************/
-#footer				{position: relative; clear: both; margin-top: 60px; width: 100%;}
+#footer				{position: relative; clear: both; width: 100%;}
 #footer ul			{margin: 10px auto; width: 50%;}
 #footer li			{display: inline; padding: 10px; padding-top: 5px; padding-bottom: 5px; border-right: 1px solid #D3D9C9;}
 #footer li.last		{border-right: none;}
