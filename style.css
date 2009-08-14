@@ -42,6 +42,7 @@ h2				{font-size: 15px; margin: 5px 0;}
 .block					{margin: 40px;}
 .block p				{font-size: 16px;}
 .dashed-block			{padding: 20px; border-top: 2px dashed #D3D9C9; border-bottom: 2px dashed #D3D9C9;}
+.dashed-block p			{font-size: 16px;}
 #images-block1 img		{margin: 10px;}
 #content p				{margin: 20px 0px; line-height: 20px;}
 #content ul li			{line-height: 20px;}
