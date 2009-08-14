@@ -22,6 +22,9 @@ h2				{font-size: 15px; margin: 5px 0; color: #716154;}
 /***************************
 		Header		       * 
 ****************************/
+/********* Nav ***********/
+#nav_logo				{ margin-left: 58px; margin-top: 20px; }
+
 #header					{width: 946px; height: 251px; background-image: url('images/temp_header_background.jpg');}
 #header ul				{position: absolute; top: 105px; left: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 11px; letter-spacing: 2px;}
 #header li				{padding: 3px 0px;}
@@ -34,6 +37,7 @@ h2				{font-size: 15px; margin: 5px 0; color: #716154;}
 ****************************/
 #content				{position: relative; min-height: 300px;}
 #main-column1			{float: left; width: 475px; padding: 0px; margin-left: 40px; line-height: 20px;}
+
 #main-column2			{float: right; width: auto; padding: 0px; margin-right: 40px;}
 .sub-column1			{position: relative; float: left; width: 200px;  padding: 10px;}
 .sub-column2			{position: relative; float: right; width: 200px; padding: 10px;}
@@ -41,13 +45,16 @@ h2				{font-size: 15px; margin: 5px 0; color: #716154;}
 
 /* Column that is typically the width of a full main-column */
 .block					{margin: 40px;}
+.block#top				{margin-bottom: 100px; margin-top: 50px;}
+.block#bottom			{margin-top: 100px;}
 .block p				{font-size: 16px;  }
 .dashed-block			{padding: 20px; border-top: 2px dashed #D3D9C9; border-bottom: 2px dashed #D3D9C9;}
 .dashed-block p		{font-size: 14px;  line-height: 23px; }
+
 #images-block1 img		{margin: 10px;}
 #content p				{margin: 20px 0px;}
 #content ul li			{line-height: 20px;}
-#blue-title				{float:left;margin-top: 10px; margin-right:20px; font-size: 20px; color: #729EBB;}
+#blue-title				{float: left; margin-top: 10px; margin-right:20px; font-size: 18px; color: #729EBB;}
 #blue-title-image		{margin-top: auto; margin-bottom: auto;}
 .block#blue-title		{vertical-align: middle;}
 
