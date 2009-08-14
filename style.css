@@ -42,6 +42,9 @@ h2				{font-size: 15px; margin: 5px 0;}
 .block					{margin: 40px;}
 .block#top				{margin-bottom: 100px; margin-top: 50px;}
 .block#bottom			{margin-top: 100px;}
+.blcok#bottom h2		{color: #969799; font-size: 12px;}
+#see-block				{color: #729EBB; font-size: 9px; text-align: right;}
+/*.block#see-text         {}*/
 .block p				{font-size: 10px;}
 .dashed-block			{padding: 20px; border-top: 2px dashed #D3D9C9; border-bottom: 2px dashed #D3D9C9;}
 .dashed-block p			{font-size: 12px;}
