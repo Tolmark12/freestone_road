@@ -1,0 +1,70 @@
+/********************************************
+			Global		 			 	    *
+*********************************************/
+/***************************
+		Base		       * 
+****************************/
+* 				{margin:0; padding:0; outline: none;}
+body, html		{height: 100%;}
+body			{color: #68696B; font-size: 11px; background: #ffffff; font-family: "Georgia", "Times New Roman", "Serif";}
+.clear			{min-height: 1px;}
+.clear:after	{content: " "; display: block; height: 0; font-size: 0;	clear: both; visibility: hidden;}
+/* *html .clear	{height: 1px;} */
+img				{border: none;}
+ul,ol 			{list-style:none;}
+h1				{font-family: "Trade Gothic"; font-size: 25px; font-weight: lighter;}
+h2				{font-size: 15px; margin: 5px 0;}
+/*div				{border: 1px dashed black;}*/
+#wrapper		{position: relative; width: 946px; margin: 13px auto 13px auto; border:8px solid #D3D9C9;}
+
+/* forms */
+/*fieldset	{border: none;}
+label		{float: left; width: 100px; margin-top: 10px;}
+input,
+textarea	{margin-top: 10px;}*/
+
+/***************************
+		Header		       * 
+****************************/
+#header					{width: 100%;}
+/*#logo 				{float: left; font-size: 20px; font-weight: bold;}
+#topnav					{float: right; margin-top: 10px; margin-right: 105px;}
+#topnav li				{display: inline;}
+#topnav li.separator	{width: 1px; height: 19px; background: url('../images/top_nav_separator.jpg') no-repeat;}
+#topnav li a			{color: #4c4c4c; text-decoration: none; text-transform: uppercase; margin-right: 2px;}
+#topnav li a:hover		{color: #f8991d; }*/
+
+/***************************
+		Content		       * 
+****************************/
+#content				{position: relative; min-height: 300px;}
+#main-column1			{float: left; width: 475px; padding: 0px; margin-left: 40px;}
+#main-column2			{float: right; width: auto; padding: 0px; margin-right: 40px;}
+.sub-column1			{position: relative; float: left; width: 200px;  padding: 10px;}
+.sub-column2			{position: relative; float: right; width: 200px; padding: 10px;}
+/* Column that is typically the width of a full main-column */
+.block					{margin: 40px;}
+.block p				{font-size: 16px;}
+.dashed-block			{padding: 20px; border-top: 2px dashed #D3D9C9; border-bottom: 2px dashed #D3D9C9;}
+#images-block1 img		{margin: 10px;}
+#content p				{margin: 20px 0px; line-height: 20px;}
+#content ul li			{line-height: 20px;}
+#blue-title				{margin-top: auto; margin-bottom: auto; font-size: 25px; color: #729EBB;}
+#blue-title-image		{margin-top: auto; margin-bottom: auto;}
+.block#blue-title		{vertical-align: middle;}
+/*ul.subnav				{margin: 10px;}
+ul.subnav li			{margin-top: 3px;}
+ul.subnav li a			{font-family: "Trade Gothic"; font-size: 12px; color: #6d6e71;}
+ul.subnav li a:hover	{color: #f8991d;}
+p.summary				{font-size: 15px; color: #f8991d; text-align: justify; line-height: 22px;}*/
+
+
+/***************************
+		Footer		       * 
+****************************/
+#footer				{position: relative; clear: both; width: 100%;}
+#footer ul			{margin: 10px auto; width: 50%;}
+#footer li			{display: inline; padding: 10px; padding-top: 5px; padding-bottom: 5px; border-right: 1px solid #D3D9C9;}
+#footer li.last		{border-right: none;}
+#footer li a		{color: #68696B; text-decoration: none;}
+#footer li a:hover	{color: #68696B; text-decoration: underline;}
