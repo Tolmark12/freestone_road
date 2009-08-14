@@ -1,0 +1,12 @@
+{
+	"stones" : [
+		{ "x" : 10, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 20, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 30, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 40, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 50, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 60, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 70, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
+		{ "x" : 80, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" }
+	]
+}
