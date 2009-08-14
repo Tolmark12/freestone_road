@@ -5,7 +5,7 @@
 		Base		       * 
 ****************************/
 * 				{margin:0; padding:0; outline: none;}
-body, html		{height: 100%;}
+/*body, html		{height: 100%;}*/
 body			{color: #68696B; font-size: 11px; background: #ffffff; font-family: "Georgia", "Times New Roman", "Serif";}
 .clear			{min-height: 1px;}
 .clear:after	{content: " "; display: block; height: 0; font-size: 0;	clear: both; visibility: hidden;}
@@ -18,21 +18,17 @@ h2				{font-size: 15px; margin: 5px 0;}
 #wrapper		{position: relative; width: 946px; margin: 13px auto 13px auto; border:8px solid #D3D9C9;}
 
 /* forms */
-/*fieldset	{border: none;}
-label		{float: left; width: 100px; margin-top: 10px;}
-input,
-textarea	{margin-top: 10px;}*/
+
 
 /***************************
 		Header		       * 
 ****************************/
 #header					{width: 946px; height: 251px; background-image: url('images/temp_header_background.jpg');}
-/*#logo 				{float: left; font-size: 20px; font-weight: bold;}
-#topnav					{float: right; margin-top: 10px; margin-right: 105px;}
-#topnav li				{display: inline;}
-#topnav li.separator	{width: 1px; height: 19px; background: url('../images/top_nav_separator.jpg') no-repeat;}
-#topnav li a			{color: #4c4c4c; text-decoration: none; text-transform: uppercase; margin-right: 2px;}
-#topnav li a:hover		{color: #f8991d; }*/
+#header ul				{position: absolute; top: 105px; left: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 11px; letter-spacing: 2px;}
+#header li				{padding: 3px 0px;}
+#header li a			{color: #C5C5C7; text-decoration: none;}
+#header li a#selected	{color: #FFFFFF; text-decoration: none; border-bottom: 2px solid #78797B;}
+#header li a:hover		{color: #FFFFFF; text-decoration: none; border-bottom: 2px solid #78797B;}
 
 /***************************
 		Content		       * 
@@ -49,14 +45,9 @@ textarea	{margin-top: 10px;}*/
 #images-block1 img		{margin: 10px;}
 #content p				{margin: 20px 0px; line-height: 20px;}
 #content ul li			{line-height: 20px;}
-#blue-title				{margin-top: auto; margin-bottom: auto; font-size: 25px; color: #729EBB;}
+#blue-title				{float:left;margin-top: 10px; margin-right:20px; font-size: 20px; color: #729EBB;}
 #blue-title-image		{margin-top: auto; margin-bottom: auto;}
 .block#blue-title		{vertical-align: middle;}
-/*ul.subnav				{margin: 10px;}
-ul.subnav li			{margin-top: 3px;}
-ul.subnav li a			{font-family: "Trade Gothic"; font-size: 12px; color: #6d6e71;}
-ul.subnav li a:hover	{color: #f8991d;}
-p.summary				{font-size: 15px; color: #f8991d; text-align: justify; line-height: 22px;}*/
 
 
 /***************************
