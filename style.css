@@ -6,17 +6,16 @@
 ****************************/
 * 				{margin:0; padding:0; outline: none;}
 /*body, html		{height: 100%;}*/
-body			{color: #68696B; font-size: 11px; background: #ffffff; font-family: "Georgia", "Times New Roman", "Serif";}
+body			{color: #7E7E7E; font-size: 11px; background: #ffffff; font-family: "Georgia", "Times New Roman", "Serif";}
 .clear			{min-height: 1px;}
 .clear:after	{content: " "; display: block; height: 0; font-size: 0;	clear: both; visibility: hidden;}
 /* *html .clear	{height: 1px;} */
 img				{border: none;}
 ul,ol 			{list-style:none;}
-h1				{font-family: "Trade Gothic"; font-size: 25px; font-weight: lighter;}
-h2				{font-size: 15px; margin: 5px 0;}
+h1				{font-family: "Trade Gothic"; font-size: 19px; font-weight: lighter; color: #716154;}
+h2				{font-size: 15px; margin: 5px 0; color: #716154;}
 /*div				{border: 1px dashed black;}*/
-#wrapper		{position: relative; width: 946px; margin: 13px auto 13px auto; border:8px solid #D3D9C9;}
-
+#wrapper		{position: relative; width: 946px; margin: 13px auto 13px auto; border:8px solid #D7D0C6;}
 /* forms */
 
 
@@ -34,17 +33,19 @@ h2				{font-size: 15px; margin: 5px 0;}
 		Content		       * 
 ****************************/
 #content				{position: relative; min-height: 300px;}
-#main-column1			{float: left; width: 475px; padding: 0px; margin-left: 40px;}
+#main-column1			{float: left; width: 475px; padding: 0px; margin-left: 40px; line-height: 20px;}
 #main-column2			{float: right; width: auto; padding: 0px; margin-right: 40px;}
 .sub-column1			{position: relative; float: left; width: 200px;  padding: 10px;}
 .sub-column2			{position: relative; float: right; width: 200px; padding: 10px;}
+
+
 /* Column that is typically the width of a full main-column */
 .block					{margin: 40px;}
-.block p				{font-size: 16px;}
+.block p				{font-size: 16px;  }
 .dashed-block			{padding: 20px; border-top: 2px dashed #D3D9C9; border-bottom: 2px dashed #D3D9C9;}
-.dashed-block p			{font-size: 16px;}
+.dashed-block p		{font-size: 14px;  line-height: 23px; }
 #images-block1 img		{margin: 10px;}
-#content p				{margin: 20px 0px; line-height: 20px;}
+#content p				{margin: 20px 0px;}
 #content ul li			{line-height: 20px;}
 #blue-title				{float:left;margin-top: 10px; margin-right:20px; font-size: 20px; color: #729EBB;}
 #blue-title-image		{margin-top: auto; margin-bottom: auto;}
