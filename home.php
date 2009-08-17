@@ -24,10 +24,10 @@
 			<div id='main-column2'>	
 				<div class='block' id='top'>
 					<span id='blue-title'>
-						<a href="index.php?page=services">Services We Offer</a>
+						<a href='index.php?page=services'>Services We Offer</a>
 					</span>
 					<span id='blue-title-image'>
-						<a href="index.php?page=services"><img src='images/stone_arrow.gif' /></a>
+						<a href='index.php?page=services'><img src='images/stone_arrow.gif' /></a>
 					</span>
 				</div>
 				<div class='block' id='bottom'>
@@ -36,7 +36,7 @@
 						<img src='images/temp_logo_1.gif' /><img src='images/temp_logo_2.gif' /><img src='images/temp_logo_3.gif' /><img src='images/temp_logo_4.gif' />
 					</div>
 					<div id='see-block'>
-						<a href="index.php?page=clients">See More</a> <a href="index.php?page=clients"><img src='images/blue_arrow.gif' /></a>
+						<a href='index.php?page=clients'>See More</a> <a href='index.php?page=clients'><img src='images/blue_arrow.gif' /></a>
 					</div>
 				</div>
 			</div>

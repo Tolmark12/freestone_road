@@ -15,7 +15,7 @@ switch ( strtolower($section) ) {
 		// HOME //
 		case 'home':								
 		$pageTitle		= "Home";
-		$currentPage	= "Home";
+		$currentPage	= "home";
 		$phpPage		= "home.php";
 		$keywords		= "";
 		break;
@@ -23,7 +23,7 @@ switch ( strtolower($section) ) {
 		// SERVICES //
 		case 'services':								
 		$pageTitle		= "Services";
-		$currentPage	= "Services";
+		$currentPage	= "services";
 		$phpPage		= "services.php";
 		$keywords		= "";
 		break;
@@ -31,7 +31,7 @@ switch ( strtolower($section) ) {
 		// PRICING //
 		case 'pricing':								
 		$pageTitle		= "Pricing";
-		$currentPage	= "Pricing";
+		$currentPage	= "pricing";
 		$phpPage		= "pricing.php";
 		$keywords		= "";
 		break;
@@ -39,15 +39,15 @@ switch ( strtolower($section) ) {
 		// CLIENTS //
 		case 'clients':								
 		$pageTitle		= "Clients";
-		$currentPage	= "Clients";
-		$phpPage		= "home.php";
+		$currentPage	= "clients";
+		$phpPage		= "clients.php";
 		$keywords		= "";
 		break;
 		
 		// ABOUT US //
 		case 'aboutus':								
 		$pageTitle		= "About Us";
-		$currentPage	= "About Us";
+		$currentPage	= "aboutus";
 		$phpPage		= "aboutus.php";
 		$keywords		= "";
 		break;
@@ -55,7 +55,7 @@ switch ( strtolower($section) ) {
 		// CONTACT //
 		case 'contact':								
 		$pageTitle		= "Contact";
-		$currentPage	= "Contact";
+		$currentPage	= "contact";
 		$phpPage		= "contact.php";
 		$keywords		= "";
 		break;
@@ -63,7 +63,7 @@ switch ( strtolower($section) ) {
 			// SiteMap //
 			case 'sitemap':								
 			$pageTitle		= "SiteMap";
-			$currentPage	= "SiteMap";
+			$currentPage	= "sitemap";
 			$phpPage		= "sitemap.php";
 			$keywords		= "";
 			break;
@@ -71,7 +71,7 @@ switch ( strtolower($section) ) {
 			// TermsOfUse //
 			case 'termsofuse':								
 			$pageTitle		= "TermsOfUse";
-			$currentPage	= "TermsOfUse";
+			$currentPage	= "termspfuse";
 			$phpPage		= "termsofuse.php";
 			$keywords		= "";
 			break;
@@ -79,7 +79,7 @@ switch ( strtolower($section) ) {
 			// Privacy //
 			case 'privacy':								
 			$pageTitle		= "Privacy";
-			$currentPage	= "Privacy";
+			$currentPage	= "privacy";
 			$phpPage		= "privacy.php";
 			$keywords		= "";
 			break;
@@ -88,7 +88,7 @@ switch ( strtolower($section) ) {
 	// Default
 	default:											
 	$pageTitle		= "Home";
-	$currentPage	= "Home";
+	$currentPage	= "home";
 	$phpPage		= "home.php";
 	$keywords 		= "";
 

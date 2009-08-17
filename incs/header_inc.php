@@ -13,16 +13,17 @@
         </script>
 	</head>
 <body>
+	<!-- id='selected' for selecting which link is currently selected-->
 	<div id='wrapper'>
-		<div id='header'>
+		<div id='header' class='<?php echo $currentPage; ?>'>
 			<div id='top-nav'>
-				<a href='index.html'><img id='nav_logo' src="images/logo.png" width="119" height="74" alt="Logo"></a>
+				<a href='index.php'><img id='nav-logo' src="images/logo.png" width="119" height="74" alt="Logo"></a>
 				<ul>
-					<li><a href='services.html' id='selected'>SERVICES</a></li>
-					<li><a href='pricing.html'>PRICING</a></li>
-					<li><a href='clients.html'>CLIENTS</a></li>
-					<li><a href='aboutus.html'>ABOUT US</a></li>
-					<li><a href='contact.html'>CONTACT</a></li>
+					<li><a href='index.php?page=services'>SERVICES</a></li>
+					<li><a href='index.php?page=pricing'>PRICING</a></li>
+					<li><a href='index.php?page=clients'>CLIENTS</a></li>
+					<li><a href='index.php?page=aboutus'>ABOUT US</a></li>
+					<li><a href='index.php?page=contact'>CONTACT</a></li>
 				</ul>
 			</div>
 		</div>

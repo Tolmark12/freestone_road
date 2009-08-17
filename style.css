@@ -23,10 +23,19 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 		Header		       * 
 ****************************/
 /********* Nav ***********/
-#nav-logo				{ margin-left: 58px; margin-top: 20px; }
-#nav-top-piece			{ position: absolute; top: -21px; left: 45px; }
+#nav-logo				{margin-left: 58px; margin-top: 20px;}
+#nav-top-piece			{position: absolute; top: -21px; left: 45px;}
 
-#header					{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
+/*#header					{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}*/
+#header.home			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
+#header.services		{width: 946px; height: 251px; background-image: url('images/services_bg.jpg');}
+#header.pricing			{width: 946px; height: 251px; background-image: url('images/pricing_bg.jpg');}
+#header.clients			{width: 946px; height: 251px; background-image: url('images/clients_bg.jpg');}
+#header.aboutus			{width: 946px; height: 251px; background-image: url('images/aboutus_bg.jpg');}
+#header.contact			{width: 946px; height: 251px; background-image: url('images/contact_bg.jpg');}
+#header.sitemap			{width: 946px; height: 251px; background-image: url('images/sitemap_bg.jpg');}
+#header.termsofuse		{width: 946px; height: 251px; background-image: url('images/termsofservice_bg.jpg');}
+#header.privacy			{width: 946px; height: 251px; background-image: url('images/privacy_bg.jpg');}
 #header ul				{position: absolute; top: 105px; left: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 11px; letter-spacing: 2px;}
 #header li				{padding: 3px 0px;}
 #header li a			{color: #C5C5C7; text-decoration: none;}
@@ -42,8 +51,9 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 #main-column1			{float: left; width: 475px; padding: 0px; margin-left: 40px; line-height: 20px;}
 #main-column2			{float: right; width: auto; padding: 0px; margin-right: 40px;}
 .block					{margin: 0px;}
-.block p				{font-size: 10px;}
+.block p				{font-size: 11px;}
 #content p				{margin: 10px 0px 0px 0px;}
+#content ul				{margin-top:10px;}
 #content ul li			{line-height: 20px;}
 
 /* Left */
