@@ -71,7 +71,7 @@ switch ( strtolower($section) ) {
 			// TermsOfUse //
 			case 'termsofuse':								
 			$pageTitle		= "TermsOfUse";
-			$currentPage	= "termspfuse";
+			$currentPage	= "termsofuse";
 			$phpPage		= "termsofuse.php";
 			$keywords		= "";
 			break;
