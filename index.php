@@ -2,8 +2,8 @@
 
 
 // Section
-$section = $_GET['page_id'];
-$sub	 = $_GET['sub_id'];
+$section = $_GET['page'];
+//$sub	 = $_GET['sub'];
 
 // Whether to add the default header and footer
 $addHeaderAndFooter = true;
@@ -12,21 +12,86 @@ $addHeaderAndFooter = true;
 
 switch ( strtolower($section) ) {
 	
-	// HOME //
-	case '':
-	case 'home':										
-		$pageTitle		= "Bevy, Inc :: Corporate Site for the Fashion-Forward Facebook Application";
+		// HOME //
+		case 'home':								
+		$pageTitle		= "Home";
 		$currentPage	= "Home";
 		$phpPage		= "home.php";
-		$keywords		= "Bevy, Bevy Application, Fashion Facebook, Facebook Application, Bevy Funding, Bevy Investment, Bevy Partnership, Fashion Partner Facebook, Style Facebook, Women Facebook, Women Social Networking, Fashion Social Networking, Style Social Networking, Seattle Startup, Seattle Facebook. Conversation Catalyst, Catalyst for Conversations";
-	break;
-
+		$keywords		= "";
+		break;
+		
+		// SERVICES //
+		case 'services':								
+		$pageTitle		= "Services";
+		$currentPage	= "Services";
+		$phpPage		= "services.php";
+		$keywords		= "";
+		break;
+		
+		// PRICING //
+		case 'pricing':								
+		$pageTitle		= "Pricing";
+		$currentPage	= "Pricing";
+		$phpPage		= "pricing.php";
+		$keywords		= "";
+		break;
+		
+		// CLIENTS //
+		case 'clients':								
+		$pageTitle		= "Clients";
+		$currentPage	= "Clients";
+		$phpPage		= "home.php";
+		$keywords		= "";
+		break;
+		
+		// ABOUT US //
+		case 'aboutus':								
+		$pageTitle		= "About Us";
+		$currentPage	= "About Us";
+		$phpPage		= "aboutus.php";
+		$keywords		= "";
+		break;
+		
+		// CONTACT //
+		case 'contact':								
+		$pageTitle		= "Contact";
+		$currentPage	= "Contact";
+		$phpPage		= "contact.php";
+		$keywords		= "";
+		break;
+		
+			// SiteMap //
+			case 'sitemap':								
+			$pageTitle		= "SiteMap";
+			$currentPage	= "SiteMap";
+			$phpPage		= "sitemap.php";
+			$keywords		= "";
+			break;
+			
+			// TermsOfUse //
+			case 'termsofuse':								
+			$pageTitle		= "TermsOfUse";
+			$currentPage	= "TermsOfUse";
+			$phpPage		= "termsofuse.php";
+			$keywords		= "";
+			break;
+			
+			// Privacy //
+			case 'privacy':								
+			$pageTitle		= "Privacy";
+			$currentPage	= "Privacy";
+			$phpPage		= "privacy.php";
+			$keywords		= "";
+			break;
+			
+	
 	// Default
-	default :											
-	$pageTitle		= "Bevy, Inc :: Corporate Site for the Fashion-Forward Facebook Application";
+	default:											
+	$pageTitle		= "Home";
 	$currentPage	= "Home";
 	$phpPage		= "home.php";
-	$keywords 		= "Bevy, Bevy Application, Fashion Facebook, Facebook Application, Bevy Funding, Bevy Investment, Bevy Partnership, Fashion Partner Facebook, Style Facebook, Women Facebook, Women Social Networking, Fashion Social Networking, Style Social Networking, Seattle Startup, Seattle Facebook. Conversation Catalyst, Catalyst for Conversations";
+	$keywords 		= "";
+
 }
 
 
@@ -34,9 +99,9 @@ switch ( strtolower($section) ) {
 if($addHeaderAndFooter )
 {
 	// Build page
-	include_once 'scripts/incs/header_inc.php';
-	include_once $phpPage						 ;
-	include_once 'scripts/incs/footer_inc.php';
+	include_once 'incs/header_inc.php';
+	include_once $phpPage;
+	include_once 'incs/footer_inc.php';
 }
 else
 {
