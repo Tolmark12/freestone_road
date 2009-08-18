@@ -109,11 +109,15 @@ img						{margin: 12px;}
 /*Clients*/
 
 /*About Us*/
-.sub-column1-aboutus	{position: relative; float: left; width: 150px;  padding: 10px 0px; border-right: 1.5px dashed black;}
-.sub-column2-aboutus	{position: relative; float: left; width: 150px;  padding: 10px 0px;}
+.sub-column1-aboutus	{position: relative; float: left; width: 130px;  padding: 0px 15px 10px 0px; border-right: 1.5px dashed black;}
+.sub-column2-aboutus	{position: relative; float: left; width: 130px;  padding: 0px 15px;}
+.sub-column1-aboutus p span#bold
+						{font-weight: bold; letter-spacing: .5px;}
+.sub-column2-aboutus a	{color: #729EBB;}					
+.sub-column1-aboutus p	{font-size: 12px; line-height: 20px;}
+.sub-column2-aboutus p	{font-size: 12px; line-height: 20px;}
 .block#top-aboutus		{width: 325px;}
-.block#top-aboutus	p	{font-size:}
-#top-right-aboutus-title{padding-top: 100px; padding-bottom: 30px; font-size: 17px; letter-spacing: .75px; line-height: 28px; font-family: Georgia; font-style: italic;}
+#top-right-aboutus-title{padding-top: 85px; padding-bottom: 30px; font-size: 17px; letter-spacing: .75px; line-height: 28px; font-family: Georgia; font-style: italic;}
 
 /*Contact*/
 .block#contact			{}

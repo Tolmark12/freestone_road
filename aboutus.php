@@ -17,12 +17,12 @@
 				<div class='block clear' id='top-aboutus'>
 					<div class='clear' id='top-right-aboutus-title'>Helping Web-Enabled Business Find Their Way in Today's <span id='blue-inline-title'>Complex</span> World.</div>
 					<div class='sub-column1-aboutus'>
-						<p>	Freesone Road<br />
+						<p>	<span id='bold'>Freestone Road</span><br />
 							2317 Walnnut Ave SW<br />
 							Seattle, WA 98116</p>
 					</div>
 					<div class='sub-column2-aboutus'>
-						<p>	Info@freestoneroad.com<br />
+						<p>	<a href='mailto:Info@freestoneroad.com'>Info@freestoneroad.com</a><br />
 							(206) 498-8202<br />
 							(123) 123-1234</p>
 					</div>
