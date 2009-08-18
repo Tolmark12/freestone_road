@@ -60,16 +60,7 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 #left-bottom.block		{padding-bottom: 40px; width: auto;}
 .dashed-block			{padding: 10px 0px; margin-top: 20px; margin-bottom: 20px; border-top: 1.5px dashed black; border-bottom: 1.5px dashed black;}
 .dashed-block h1		{padding-top: 10px; padding-bottom: 0px;}
-.dashed-block p			{font-size: 14px;  line-height: 23px; padding-bottom: 0px;}
-
-/**** Right ****/
-
-/*Specific to certain pages
-(for the most part)*/
-
-.block#top				{margin-bottom: 100px; margin-top: 50px;}
-.block#bottom			{margin-top: 100px;}
-.block#bottom h2		{color: #969799; font-size: 14px;}
+.dashed-block p			{font-size: 14px;  line-height: 23px; padding-bottom: 0px; word-break: normal;}
 
 /*Home*/
 
@@ -78,14 +69,47 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 
 /*Pricing*/
 .block#bottom-pricing	{margin-bottom: 175px;}
-.block#bottom-pricing p	{font-size: 14px; margin-top: 40px; letter-spacing: .75px; line-height: 19px;}
+.block#bottom-pricing p	{font-size: 14px; margin-top: 40px; letter-spacing: .75px; line-height: 20px;}
 .block#bottom-pricing a	{color: #729EBB;}
 
 /*Clients*/
-.block#bottom-clients	{}
+.block#left-bottom-clients	
+						{margin: 60px 0px;}
+.block#left-bottom-clients	p
+						{font-size: 16px;}
+#images-block-haveworked 
+						{margin: 0px -20px;}
+#images-block-haveworked 
+img						{margin: 14px 20px 14px 20px;}				
 
 /*About Us*/
-.block#bottom-aboutus	{}
+.block#left-bottom-aboutus	
+						{margin-bottom: 60px;}
+.block#left-bottom-aboutus	
+h2						{margin-top: 30px;}
+
+/*Contact*/
+.block#contact			{}
+
+
+/**** Right ****/
+
+.block#top				{margin-bottom: 100px; margin-top: 50px;}
+.block#bottom			{margin-top: 100px;}
+.block#bottom h2		{color: #969799; font-size: 14px;}
+
+/*Home*/
+#images-block-workedwith 
+img						{margin: 12px;}
+
+/*Services*/
+
+/*Pricing*/
+
+/*Clients*/
+
+/*About Us*/
+.block#top-aboutus		{}
 
 /*Contact*/
 .block#contact			{}
@@ -93,8 +117,6 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 
 #see-block				{color: #729EBB; font-size: 9px; text-align: right;}
 #see-block a			{text-decoration: none; color: #729EBB;}
-#images-block-workedwith 
-img						{margin: 12px;}
 #blue-title				{float: left; margin-left: 20px; margin-top: 10px; margin-right:30px; font-style: italic; font-size: 18px;}
 #blue-title a			{text-decoration: none; color: #729EBB;}
 #blue-title-image		{margin-top: auto; margin-bottom: auto;}
