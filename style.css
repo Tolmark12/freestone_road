@@ -27,15 +27,15 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 #nav-top-piece			{position: absolute; top: -21px; left: 45px;}
 
 /* Background Image for the Header */
-#header.home			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.services		{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.pricing			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.clients			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.aboutus			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.contact			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.sitemap			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.termsofuse		{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
-#header.privacy			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
+#header.home			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.services		{width: 946px; height: 251px; background-image: url('images/header_services.jpg');}
+#header.pricing			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.clients			{width: 946px; height: 251px; background-image: url('images/header_clients.jpg');}
+#header.aboutus			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.contact			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.sitemap			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.termsofuse		{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.privacy			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
 #header ul				{position: absolute; top: 105px; left: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 11px; letter-spacing: 2px;}
 #header li				{padding: 3px 0px;}
 #header li a			{color: #C5C5C7; text-decoration: none;}
