@@ -77,8 +77,8 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 .block#bottom-services	{}
 
 /*Pricing*/
-.block#bottom-pricing	{margin-bottom: 200px;}
-.block#bottom-pricing p	{font-size: 14px; margin-top: 20px;}
+.block#bottom-pricing	{margin-bottom: 175px;}
+.block#bottom-pricing p	{font-size: 14px; margin-top: 40px; letter-spacing: .75px; line-height: 19px;}
 .block#bottom-pricing a	{color: #729EBB;}
 
 /*Clients*/
