@@ -17,13 +17,14 @@
 	<div id='wrapper'>
 		<div id='header' class='<?php echo $currentPage; ?>'>
 			<div id='top-nav'>
+				<img src="images/nav_top_piece.jpg" id='nav-top-piece' height="21" alt="Nav Top Piece">
 				<a href='index.php'><img id='nav-logo' src="images/logo.png" width="119" height="74" alt="Logo"></a>
 				<ul>
 					<li><a href='index.php?page=services' <?php if($currentPage=='services'){echo"id='selected' ";} ?>>SERVICES</a></li>
-					<li><a href='index.php?page=pricing' <?php if($currentPage=='pricing'){echo"id='selected' ";} ?>>PRICING</a></li>
-					<li><a href='index.php?page=clients' <?php if($currentPage=='clients'){echo"id='selected' ";} ?>>CLIENTS</a></li>
-					<li><a href='index.php?page=aboutus' <?php if($currentPage=='aboutus'){echo"id='selected' ";} ?>>ABOUT US</a></li>
-					<li><a href='index.php?page=contact' <?php if($currentPage=='contact'){echo"id='selected' ";} ?>>CONTACT</a></li>
+					<li><a href='index.php?page=pricing' <?php  if($currentPage=='pricing'){echo"id='selected' ";} ?>>PRICING</a></li>
+					<li><a href='index.php?page=clients' <?php  if($currentPage=='clients'){echo"id='selected' ";} ?>>CLIENTS</a></li>
+					<li><a href='index.php?page=aboutus' <?php  if($currentPage=='aboutus'){echo"id='selected' ";} ?>>ABOUT US</a></li>
+					<li><a href='index.php?page=contact' <?php  if($currentPage=='contact'){echo"id='selected' ";} ?>>CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
