@@ -29,10 +29,10 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 /* Background Image for the Header */
 #header.home			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
 #header.services		{width: 946px; height: 251px; background-image: url('images/header_services.jpg');}
-#header.pricing			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.pricing			{width: 946px; height: 251px; background-image: url('images/header_pricing.jpg');}
 #header.clients			{width: 946px; height: 251px; background-image: url('images/header_clients.jpg');}
-#header.aboutus			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
-#header.contact			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.aboutus			{width: 946px; height: 251px; background-image: url('images/header_about.jpg');}
+#header.contact			{width: 946px; height: 251px; background-image: url('images/header_contact.jpg');}
 #header.sitemap			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
 #header.termsofuse		{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
 #header.privacy			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
