@@ -1,22 +1,26 @@
 		<div id='content' class='clear'>
 			<div id='main-column1'>
 				<div class='dashed-block'>
-					<h1>Need Help Finding Your Way on the Web?</h1>
-					<p>Let Freestone Road help. We offer clear, concise, affordable guidance on how to best leverage the web to grow your business. We can help you shortcut the learning curve, plot a wise course, measure your progress, and focus your limited resources on the steps that matters most.</p>
+					<h1>Let Us Help You Choose the Best Path.</h1>
+					<p>Freestone Road helps manufacturers, retailers, and service providers successfully navigate today's fast-paced, multi-channel, web-enabled business landscape. Whether you're just getting started on the web, struggling to grow efficiently, or looking to craft a true multi-channel web strategy, the Free-stone Team can help make sure you're on the right path.</p>
 				</div>
 				<div id='left-bottom' class='block clear'>
 					<div class='sub-column1'>
-						<h2>Looking for Guidance?</h2>
-						<p>Not sure where to start on the web? Worried you're wasting money on the wrong programs? Struggling to measure your progress? Looking for seasoned, independent advice you can trust? You've come to the right place.</p>
+						<h2>We Work With:</h2>
+						<ul>
+							<li>Start-ups and emerging brands</li>
+							<li>Manufacturers and re-sellers</li>
+							<li>Established multi-channel retailers</li>
+							<li>Web-enabled service providers</li>
+						</ul>					
 					</div>
 					<div class='sub-column2'>
-						<h2>Let Us Help You:</h2>
+						<h2>We Guarantee:</h2>
 						<ul>
-							<li>Understand your options</li>
-							<li>Prioritize your web investments</li>
-							<li>Spend money on the right programs</li>
-							<li>Grow your top and bottom lines</li>
-							<li>Leverage the web to fuel enterprise growth</li>
+							<li>Honest, independent advice you can trust</li>
+							<li>An experienced perspective and approach</li>
+							<li>Genuine passion for growing your business.</li>
+							<li>Reliable, measurable results.</li>
 						</ul>
 					</div>
 				</div>		
@@ -31,13 +35,14 @@
 					</span>
 				</div>
 				<div class='block' id='bottom'>
-					<h2>Clients We've Helped</h2>
-					<div id='images-block-workedwith'>
-						<img src='images/temp_logo_1.gif' /><img src='images/temp_logo_2.gif' /><img src='images/temp_logo_3.gif' /><img src='images/temp_logo_4.gif' />
-					</div>
-					<div id='see-block'>
-						<a href='index.php?page=clients'>See More</a> <a href='index.php?page=clients'><img src='images/blue_arrow.gif' /></a>
-					</div>
+					<h2>The Service We Offer:</h2>
+					<ul>
+						<li>Strategic guidance and planning</li>
+						<li>Program prioritization and road mapping</li>
+						<li>Brand development and refinement</li>
+						<li>Web-enabled business development</li>
+						<li>Tactical site assessments and optimization</li>
+					</ul>
 				</div>
 			</div>
 		</div>

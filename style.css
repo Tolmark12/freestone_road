@@ -26,7 +26,7 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 #nav-logo				{margin-left: 58px; margin-top: 20px;}
 #nav-top-piece			{position: absolute; top: -21px; left: 45px;}
 
-/*#header					{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}*/
+/* Background Image for the Header */
 #header.home			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
 #header.services		{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
 #header.pricing			{width: 946px; height: 251px; background-image: url('images/home_bg.jpg');}
@@ -76,8 +76,8 @@ img						{margin: 12px;}
 #blue-title.block		{vertical-align: middle;}
 
 /**** Half-Size Column ****/
-.sub-column1			{position: relative; float: left; width: 200px;  padding: 10px 0px;}
-.sub-column2			{position: relative; float: right; width: 200px; padding: 10px 0px;}
+.sub-column1			{position: relative; float: left; width: 215px;  padding: 10px 0px;}
+.sub-column2			{position: relative; float: right; width: 235px; padding: 10px 0px;}
 
 
 
