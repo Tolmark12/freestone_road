@@ -56,24 +56,50 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 #content ul				{margin-top:10px;}
 #content ul li			{line-height: 20px;}
 
-/* Left */
+/**** Left ****/
 #left-bottom.block		{padding-bottom: 40px; width: auto;}
 .dashed-block			{padding: 10px 0px; margin-top: 20px; margin-bottom: 20px; border-top: 1.5px dashed black; border-bottom: 1.5px dashed black;}
 .dashed-block h1		{padding-top: 10px; padding-bottom: 0px;}
 .dashed-block p			{font-size: 14px;  line-height: 23px; padding-bottom: 0px;}
 
-/* Right */
+/**** Right ****/
+
+/*Specific to certain pages
+(for the most part)*/
+
 .block#top				{margin-bottom: 100px; margin-top: 50px;}
 .block#bottom			{margin-top: 100px;}
 .block#bottom h2		{color: #969799; font-size: 14px;}
+
+/*Home*/
+
+/*Services*/
+.block#bottom-services	{}
+
+/*Pricing*/
+.block#bottom-pricing	{margin-bottom: 200px;}
+.block#bottom-pricing p	{font-size: 14px; margin-top: 20px;}
+.block#bottom-pricing a	{color: #729EBB;}
+
+/*Clients*/
+.block#bottom-clients	{}
+
+/*About Us*/
+.block#bottom-aboutus	{}
+
+/*Contact*/
+.block#contact			{}
+
+
 #see-block				{color: #729EBB; font-size: 9px; text-align: right;}
 #see-block a			{text-decoration: none; color: #729EBB;}
 #images-block-workedwith 
 img						{margin: 12px;}
-#blue-title				{float: left; margin-left: 20px; margin-top: 10px; margin-right:30px; font-style: italic; font-size: 18px; color: #729EBB;}
+#blue-title				{float: left; margin-left: 20px; margin-top: 10px; margin-right:30px; font-style: italic; font-size: 18px;}
 #blue-title a			{text-decoration: none; color: #729EBB;}
 #blue-title-image		{margin-top: auto; margin-bottom: auto;}
 #blue-title.block		{vertical-align: middle;}
+#blue-inline-title		{color: #729EBB;}
 
 /**** Half-Size Column ****/
 .sub-column1			{position: relative; float: left; width: 215px;  padding: 10px 0px;}

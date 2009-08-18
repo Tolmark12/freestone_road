@@ -1,24 +1,12 @@
 		<div id='content' class='clear'>
 			<div id='main-column1'>
 				<div class='dashed-block'>
-					<h1>Need Help Finding Your Way on the Web?</h1>
-					<p>Let Freestone Road help. We offer clear, concise, affordable guidance on how to best leverage the web to grow your business. We can help you shortcut the learning curve, plot a wise course, measure your progress, and focus your limited resources on the steps that matters most.</p>
+					<h1>Our Approach to Pricing</h1>
+					<p>Our goal is to prosper alongside our clients, not at their expense. We offer fair and flexible rater, with creative deal structures available to meet your specific budget situation. Really. ;o) We work hard, we work fast, and we never forget that we work for you.</p>
+					<p>To discuss a potential project and/or request a quote, <br />please email us or call 206-498-8202.</p>
 				</div>
 				<div id='left-bottom' class='block clear'>
-					<div class='sub-column1'>
-						<h2>Looking for Guidance?</h2>
-						<p>Not sure where to start on the web? Worried you're wasting money on the wrong programs? Struggling to measure your progress? Looking for seasoned, independent advice you can trust? You've come to the right place.</p>
-					</div>
-					<div class='sub-column2'>
-						<h2>Let Us Help You:</h2>
-						<ul>
-							<li>Understand your options</li>
-							<li>Prioritize your web investments</li>
-							<li>Spend money on the right programs</li>
-							<li>Grow your top and bottom lines</li>
-							<li>Leverage the web to fuel enterprise growth</li>
-						</ul>
-					</div>
+					
 				</div>		
 			</div>
 			<div id='main-column2'>	

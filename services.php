@@ -27,12 +27,10 @@
 			</div>
 			<div id='main-column2'>	
 				<div class='block' id='top'>
-					<span id='blue-title'>
-						<a href='index.php?page=services'>Services We Offer</a>
-					</span>
-					<span id='blue-title-image'>
-						<a href='index.php?page=services'><img src='images/stone_arrow.gif' /></a>
-					</span>
+					<h2>We Help You <span id='blue-inline-title'>Think Three Steps Ahead</span></h2>
+					<div id='images-block'>
+						Stones Flash/Image here
+					</div>
 				</div>
 				<div class='block' id='bottom'>
 					<h2>The Service We Offer:</h2>
