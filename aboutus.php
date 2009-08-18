@@ -14,21 +14,17 @@
 				</div>		
 			</div>
 			<div id='main-column2'>	
-				<div class='block clear' id='top'>
-					<div class='clear' id='right-top-'></div>
-					<div class='sub-column1'>
-						<h2>Looking for Guidance?</h2>
-						<p>Not sure where to start on the web? Worried you're wasting money on the wrong programs? Struggling to measure your progress? Looking for seasoned, independent advice you can trust? You've come to the right place.</p>
+				<div class='block clear' id='top-aboutus'>
+					<div class='clear' id='top-right-aboutus-title'>Helping Web-Enabled Business Find Their Way in Today's <span id='blue-inline-title'>Complex</span> World.</div>
+					<div class='sub-column1-aboutus'>
+						<p>	Freesone Road<br />
+							2317 Walnnut Ave SW<br />
+							Seattle, WA 98116</p>
 					</div>
-					<div class='sub-column2'>
-						<h2>Let Us Help You:</h2>
-						<ul>
-							<li>Understand your options</li>
-							<li>Prioritize your web investments</li>
-							<li>Spend money on the right programs</li>
-							<li>Grow your top and bottom lines</li>
-							<li>Leverage the web to fuel enterprise growth</li>
-						</ul>
+					<div class='sub-column2-aboutus'>
+						<p>	Info@freestoneroad.com<br />
+							(206) 498-8202<br />
+							(123) 123-1234</p>
 					</div>
 				</div>
 			</div>

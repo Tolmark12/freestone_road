@@ -109,7 +109,11 @@ img						{margin: 12px;}
 /*Clients*/
 
 /*About Us*/
-.block#top-aboutus		{}
+.sub-column1-aboutus	{position: relative; float: left; width: 150px;  padding: 10px 0px; border-right: 1.5px dashed black;}
+.sub-column2-aboutus	{position: relative; float: left; width: 150px;  padding: 10px 0px;}
+.block#top-aboutus		{width: 325px;}
+.block#top-aboutus	p	{font-size:}
+#top-right-aboutus-title{padding-top: 100px; padding-bottom: 30px; font-size: 17px; letter-spacing: .75px; line-height: 28px; font-family: Georgia; font-style: italic;}
 
 /*Contact*/
 .block#contact			{}
@@ -126,7 +130,6 @@ img						{margin: 12px;}
 /**** Half-Size Column ****/
 .sub-column1			{position: relative; float: left; width: 215px;  padding: 10px 0px;}
 .sub-column2			{position: relative; float: right; width: 235px; padding: 10px 0px;}
-
 
 
 /***************************
