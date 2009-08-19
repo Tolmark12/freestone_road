@@ -23,7 +23,7 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 		Header		       * 
 ****************************/
 /********* Nav ***********/
-#nav-logo					{margin-left: 58px; margin-top: 20px;}
+#nav-logo					{margin-left: 58px; margin-top: 20px; behavior: url(incs/iepngfix.htc);}
 #nav-top-piece				{position: absolute; top: -21px; left: 45px;}
 
 /* Background Image for the Header */

@@ -16,13 +16,14 @@
         		Cufon.replace('h2', 'Clarendon');
         	}
         </script>
+        <!--<link href="iestyles.css" rel="stylesheet" type="text/css" />-->
 	</head>
 <body>
 	<!-- id='selected' for selecting which link is currently selected-->
 	<div id='wrapper'>
 		<div class='header' id='<?php echo $currentPage; ?>'>
 			<div id='top-nav'>
-				<img src="images/nav_top_piece.jpg" id='nav-top-piece' height="21" alt="Nav Top Piece">
+				<img src="images/nav_top_piece.jpg" id='nav-top-piece'>
 				<a href='index.php'><img id='nav-logo' src="images/logo.png" width="119" height="74" alt="Logo"></a>
 				<ul>
 					<li><a href='index.php?page=services' <?php if($currentPage=='services'){echo"id='selected' ";} ?>>SERVICES</a></li>
