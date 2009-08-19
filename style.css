@@ -11,7 +11,7 @@ body			{color: #7E7E7E; font-size: 11px; background: #ffffff; font-family: "Geor
 .clear:after	{content: " "; display: block; height: 0; font-size: 0;	clear: both; visibility: hidden;}
 /* *html .clear	{height: 1px;} */
 img				{border: none;}
-ul,ol 			{list-style:none;}
+ul,ol 			{list-style-image:url('images/dash.gif');}
 h1				{font-family: "Trade Gothic"; font-size: 21px; font-weight: lighter; color: #716154;}
 h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 /*div				{border: 1px dashed black;}*/
@@ -23,84 +23,75 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 		Header		       * 
 ****************************/
 /********* Nav ***********/
-#nav-logo				{margin-left: 58px; margin-top: 20px;}
-#nav-top-piece			{position: absolute; top: -21px; left: 45px;}
+#nav-logo					{margin-left: 58px; margin-top: 20px;}
+#nav-top-piece				{position: absolute; top: -21px; left: 45px;}
 
 /* Background Image for the Header */
-#header.home			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
-#header.services		{width: 946px; height: 251px; background-image: url('images/header_services.jpg');}
-#header.pricing			{width: 946px; height: 251px; background-image: url('images/header_pricing.jpg');}
-#header.clients			{width: 946px; height: 251px; background-image: url('images/header_clients.jpg');}
-#header.aboutus			{width: 946px; height: 251px; background-image: url('images/header_about.jpg');}
-#header.contact			{width: 946px; height: 251px; background-image: url('images/header_contact.jpg');}
-#header.sitemap			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
-#header.termsofuse		{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
-#header.privacy			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
-#header ul				{position: absolute; top: 105px; left: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 11px; letter-spacing: 2px;}
-#header li				{padding: 3px 0px;}
-#header li a			{color: #C5C5C7; text-decoration: none;}
-#header li a#selected	{color: #FFFFFF; text-decoration: none; border-bottom: 2px solid #78797B;}
-#header li a:hover		{color: #FFFFFF; text-decoration: none; border-bottom: 2px solid #78797B;}
+#header.home				{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.services			{width: 946px; height: 251px; background-image: url('images/header_services.jpg');}
+#header.pricing				{width: 946px; height: 251px; background-image: url('images/header_pricing.jpg');}
+#header.clients				{width: 946px; height: 251px; background-image: url('images/header_clients.jpg');}
+#header.aboutus				{width: 946px; height: 251px; background-image: url('images/header_about.jpg');}
+#header.contact				{width: 946px; height: 251px; background-image: url('images/header_contact.jpg');}
+#header.sitemap				{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.termsofuse			{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header.privacy				{width: 946px; height: 251px; background-image: url('images/header_home.jpg');}
+#header ul					{position: absolute; top: 105px; left: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 11px; letter-spacing: 2px;list-style: none;}
+#header li					{padding: 3px 0px;}
+#header li a				{color: #C5C5C7; text-decoration: none;}
+#header li a#selected		{color: #FFFFFF; text-decoration: none; border-bottom: 2px solid #78797B;}
+#header li a:hover			{color: #FFFFFF; text-decoration: none; border-bottom: 2px solid #78797B;}
 
 /***************************
 		Content		       * 
 ****************************/
-#content				{position: relative; min-height: 300px;}
+#content					{position: relative; min-height: 300px;}
 
 /**** Full Size Column ****/
-#main-column1			{float: left; width: 475px; padding: 0px; margin-left: 40px; line-height: 20px;}
-#main-column2			{float: right; width: auto; padding: 0px; margin-right: 40px;}
-.block					{margin: 0px;}
-.block p				{font-size: 11px;}
-#content p				{margin: 10px 0px 0px 0px;}
-#content ul				{margin-top:10px;}
-#content ul li			{line-height: 20px;}
+#main-column1				{float: left; width: 475px; padding: 0px; margin-left: 40px; line-height: 20px;}
+#main-column2				{float: right; width: auto; padding: 0px; margin-right: 40px;}
+.block						{margin: 0px;}
+.block p					{font-size: 11px;}
+#content p					{margin: 10px 0px 0px 0px;}
+#content ul					{margin-top:10px;}
+#content ul li				{line-height: 20px;}
 
-/**** Left ****/
-#left-bottom.block		{padding-bottom: 40px; width: auto;}
-.dashed-block			{padding: 10px 0px; margin-top: 20px; margin-bottom: 20px; border-top: 1.5px dashed black; border-bottom: 1.5px dashed black;}
-.dashed-block h1		{padding-top: 10px; padding-bottom: 0px;}
-.dashed-block p			{font-size: 14px;  line-height: 23px; padding-bottom: 0px; word-break: normal;}
+/****** Left ******/
+#left-bottom.block			{padding-bottom: 40px; width: auto;}
+.dashed-block				{padding: 10px 0px; margin-top: 20px; margin-bottom: 20px; border-top: 1.5px dashed black; border-bottom: 1.5px dashed black;}
+.dashed-block h1			{padding-top: 10px; padding-bottom: 0px;}
+.dashed-block p				{font-size: 14px;  line-height: 23px; padding-bottom: 0px; word-break: normal;}
 
 /*Home*/
 
 /*Services*/
-.block#bottom-services	{}
 
 /*Pricing*/
-.block#bottom-pricing	{margin-bottom: 175px;}
-.block#bottom-pricing p	{font-size: 14px; margin-top: 40px; letter-spacing: .75px; line-height: 20px;}
-.block#bottom-pricing a	{color: #729EBB;}
+.block#bottom-pricing		{margin-bottom: 175px;}
+.block#bottom-pricing p		{font-size: 14px; margin-top: 40px; letter-spacing: .75px; line-height: 20px;}
+.block#bottom-pricing a		{color: #729EBB;}
 
 /*Clients*/
-.block#left-bottom-clients	
-						{margin: 60px 0px;}
-.block#left-bottom-clients	p
-						{font-size: 16px;}
-#images-block-haveworked 
-						{margin: 0px -20px;}
-#images-block-haveworked 
-img						{margin: 14px 20px 14px 20px;}				
+.block#left-bottom-clients	{margin: 60px 0px;}
+.block#left-bottom-clients p{font-size: 16px;}
+#images-block-haveworked	{margin: 0px -20px;}
+#images-block-haveworked img{margin: 14px 20px 14px 20px;}				
 
 /*About Us*/
-.block#left-bottom-aboutus	
-						{margin-bottom: 60px;}
-.block#left-bottom-aboutus	
-h2						{margin-top: 30px;}
+.block#left-bottom-aboutus	{margin-bottom: 60px;}
+.block#left-bottom-aboutus h2{margin-top: 30px;}
 
 /*Contact*/
-.block#contact			{}
 
 
-/**** Right ****/
+/****** Right ******/
 
-.block#top				{margin-bottom: 100px; margin-top: 50px;}
-.block#bottom			{margin-top: 100px;}
-.block#bottom h2		{color: #969799; font-size: 14px;}
+.block#top					{margin-bottom: 100px; margin-top: 50px;}
+.block#bottom				{margin-top: 100px;}
+.block#bottom h2			{color: #969799; font-size: 14px;}
 
 /*Home*/
-#images-block-workedwith 
-img						{margin: 12px;}
+#images-block-workedwith img{margin: 12px;}
 
 /*Services*/
 
@@ -109,18 +100,17 @@ img						{margin: 12px;}
 /*Clients*/
 
 /*About Us*/
-.sub-column1-aboutus	{position: relative; float: left; width: 130px;  padding: 0px 15px 10px 0px; border-right: 1.5px dashed black;}
-.sub-column2-aboutus	{position: relative; float: left; width: 130px;  padding: 0px 15px;}
+.sub-column1-aboutus		{position: relative; float: left; width: 130px;  padding: 0px 15px 10px 0px; border-right: 1.5px dashed black;}
+.sub-column2-aboutus		{position: relative; float: left; width: 130px;  padding: 0px 15px;}
 .sub-column1-aboutus p span#bold
-						{font-weight: bold; letter-spacing: .5px;}
-.sub-column2-aboutus a	{color: #729EBB;}					
-.sub-column1-aboutus p	{font-size: 12px; line-height: 20px;}
-.sub-column2-aboutus p	{font-size: 12px; line-height: 20px;}
-.block#top-aboutus		{width: 325px;}
-#top-right-aboutus-title{padding-top: 85px; padding-bottom: 30px; font-size: 17px; letter-spacing: .75px; line-height: 28px; font-family: Georgia; font-style: italic;}
+							{font-weight: bold; letter-spacing: .5px;}
+.sub-column2-aboutus a		{color: #729EBB;}					
+.sub-column1-aboutus p		{font-size: 12px; line-height: 20px;}
+.sub-column2-aboutus p		{font-size: 12px; line-height: 20px;}
+.block#top-aboutus			{width: 325px;}
+#top-right-aboutus-title	{padding-top: 85px; padding-bottom: 30px; font-size: 17px; letter-spacing: .75px; line-height: 28px; font-family: Georgia; font-style: italic;}
 
 /*Contact*/
-.block#contact			{}
 
 
 #see-block				{color: #729EBB; font-size: 9px; text-align: right;}
@@ -132,8 +122,8 @@ img						{margin: 12px;}
 #blue-inline-title		{color: #729EBB;}
 
 /**** Half-Size Column ****/
-.sub-column1			{position: relative; float: left; width: 215px;  padding: 10px 0px;}
-.sub-column2			{position: relative; float: right; width: 235px; padding: 10px 0px;}
+.sub-column1			{position: relative; float: left; width: 200px;  padding: 10px 0px;}
+.sub-column2			{position: relative; float: right; width: 215px; padding: 10px 0px;}
 
 
 /***************************
