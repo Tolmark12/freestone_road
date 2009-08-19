@@ -1,7 +1,7 @@
 		<div id='content' class='clear'>
 			<div id='main-column1'>
 				<div class='dashed-block'>
-					<h1>Need Help Finding Your Way on the Web?</h1>
+					<h1 class='visualIEFloatFix'>Need Help Finding Your Way on the Web?</h1>
 					<p>Let Freestone Road help. We offer clear, concise, affordable guidance on how to best leverage the web to grow your business. We can help you shortcut the learning curve, plot a wise course, measure your progress, and focus your limited resources on the steps that matters most.</p>
 				</div>
 				<div id='left-bottom' class='block clear'>
