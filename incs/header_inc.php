@@ -8,14 +8,19 @@
 		<script src="js/cufon.js" type="text/javascript"></script>
 		<script src="js/Clarendon_500.font.js" type="text/javascript"></script>
 		<script type="text/javascript">
-        	Cufon.replace('h1', 'Clarendon');
-        	Cufon.replace('h2', 'Clarendon');
+			var browser=navigator.appName;
+			var b_version=navigator.appVersion;
+			var version=parseFloat(b_version);
+        	if(browser!="Microsoft Internet Explorer"&&version!="6"){
+        		Cufon.replace('h1', 'Clarendon');
+        		Cufon.replace('h2', 'Clarendon');
+        	}
         </script>
 	</head>
 <body>
 	<!-- id='selected' for selecting which link is currently selected-->
 	<div id='wrapper'>
-		<div id='header' class='<?php echo $currentPage; ?>'>
+		<div class='header' id='<?php echo $currentPage; ?>'>
 			<div id='top-nav'>
 				<img src="images/nav_top_piece.jpg" id='nav-top-piece' height="21" alt="Nav Top Piece">
 				<a href='index.php'><img id='nav-logo' src="images/logo.png" width="119" height="74" alt="Logo"></a>
