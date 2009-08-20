@@ -1,5 +1,6 @@
 {
 	"services" : {
-		"getStonesData" : "content/json/SteppingStones.json"
+		"getStonesData" 	: "content/json/SteppingStones.json",
+		"getQuoteSSData" 	: "content/json/QuoteSS.json"
 	}
 }
