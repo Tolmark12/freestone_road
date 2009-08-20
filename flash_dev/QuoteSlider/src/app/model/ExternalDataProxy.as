@@ -40,9 +40,6 @@ public class ExternalDataProxy extends Proxy implements IProxy
 	
 	// _____________________________ Event Handlers
 	
-	// This is redundant and more complicated than is needed 
-	// for this project, but it's good practice for more
-	// complicated project
 	private function _onConfigLoaded ( e:Event ):void {
 		_configVo = new ConfigVo( JSON.decode( e.target.data ) );
 		sendNotification( AppFacade.CONFIG_DATA_LOADED_AND_PARSED, _configVo );

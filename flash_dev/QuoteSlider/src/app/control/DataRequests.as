@@ -24,7 +24,6 @@ public class DataRequests extends SimpleCommand implements ICommand
 			break;
 			case AppFacade.QUOTESS_DATA_LOADED :
 				//trace($notification.getName());
-				trace($notification.getBody());
 				quoteSSProxy.init( $notification.getBody() as Object );
 			break;
 		}
