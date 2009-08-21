@@ -17,9 +17,11 @@ public class Startup extends SimpleCommand implements ICommand
 		
 		// Proxies
 		var externalDataProxy:ExternalDataProxy = new ExternalDataProxy();
+		var quoteSSProxy:QuoteSSProxy = new QuoteSSProxy();
 		
 		// Register proxies
 		facade.registerProxy( externalDataProxy );
+		facade.registerProxy( quoteSSProxy );
 		
 		// Register mediators
 		
