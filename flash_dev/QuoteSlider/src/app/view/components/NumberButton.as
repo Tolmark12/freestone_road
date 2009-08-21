@@ -2,6 +2,7 @@ package app.view.components
 {
 
 import flash.display.Sprite;
+import flash.events.*;
 
 public class NumberButton extends Sprite
 {
@@ -24,7 +25,7 @@ public class NumberButton extends Sprite
 	public function deactivate (  ):void
 	{
 		_isActive = false;
-		_onMouseOut(null;)
+		_onMouseOut(null);
 	}
 	
 	// _____________________________ Build
@@ -32,7 +33,7 @@ public class NumberButton extends Sprite
 	private function _build (  ):void
 	{
 		var numberTxt:NumberTxt_swc 	= new NumberTxt_swc();
-		numberTxt.titleTxt.text 		= _index;
+		numberTxt.titleTxt.text 		= String( _index );
 		this.addChild( numberTxt );
 	}
 	

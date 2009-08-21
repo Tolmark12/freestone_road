@@ -6,9 +6,10 @@ import app.model.vo.QuoteVo;
 
 public class Quote extends Sprite
 {
-	private var _bg:QuoteBackground 	= new QuoteBackground();
+	private var _bg:QuoteBackground_swc = new QuoteBackground_swc();
 	private var _buttonsHolder:Sprite	= new Sprite();
 	private var _logos:Sprite			= new Sprite();
+	private var _currentBtn:NumberButton;
 	
 	public function Quote():void
 	{
@@ -46,7 +47,7 @@ public class Quote extends Sprite
 		if( _currentBtn != null )
 			_currentBtn.deactivate();
 			
-		_currentBtn = _buttonsHolder.getChildAt($quoteVo.index);
+		_currentBtn = _buttonsHolder.getChildAt($quoteVo.index) as NumberButton;
 		_currentBtn.activate();
 	}
 
