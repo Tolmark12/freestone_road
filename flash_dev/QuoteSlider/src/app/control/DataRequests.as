@@ -13,7 +13,7 @@ public class DataRequests extends SimpleCommand implements ICommand
 	{
 		// Proxies
 		var externalDataProxy:ExternalDataProxy = facade.retrieveProxy( ExternalDataProxy.NAME ) as ExternalDataProxy;
-		var quoteSSProxy:QuoteSSProxy			= facade.retrieveProxy( QuoteSSProxy.NAME ) as QuoteSSProxy;
+		var quoteSSProxy:QuoteProxy			= facade.retrieveProxy( QuoteProxy.NAME ) as QuoteProxy;
 		
 		// Proxy Commands
 		switch ( $notification.getName() )

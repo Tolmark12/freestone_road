@@ -1,7 +1,7 @@
 package app.model.vo
 {
 
-public class QuoteSSVo
+public class QuoteVo
 {
 	public var question:String;
 	public var quote:String;
@@ -9,7 +9,7 @@ public class QuoteSSVo
 	public var author:String;
 	public var index:Number;
 	
-	public function QuoteSSVo( $json:Object ):void
+	public function QuoteVo( $json:Object ):void
 	{
 		question 	= $json.question;
 		quote 		= $json.quote;

@@ -16,8 +16,8 @@ public class Startup extends SimpleCommand implements ICommand
 		var Root:Sprite = $notification.getBody() as Sprite;
 		
 		// Proxies
-		var externalDataProxy:ExternalDataProxy = new ExternalDataProxy();
-		var quoteSSProxy:QuoteSSProxy = new QuoteSSProxy();
+		var externalDataProxy:ExternalDataProxy 	= new ExternalDataProxy();
+		var quoteSSProxy:QuoteProxy 				= new QuoteProxy();
 		
 		// Register proxies
 		facade.registerProxy( externalDataProxy );

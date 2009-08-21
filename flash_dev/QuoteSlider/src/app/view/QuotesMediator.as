@@ -16,7 +16,7 @@ public class QuotesMediator extends Mediator implements IMediator
 	public function QuotesMediator( $stage:Sprite ):void
 	{
 		super( NAME );
-		
+		Quote;
 		trace("Quotes Mediator");
    	}
 	
@@ -28,15 +28,15 @@ public class QuotesMediator extends Mediator implements IMediator
 	}
 	
 	// PureMVC: Handle notifications
-	override public function handleNotification( $notification:INotification ):void
+	override public function handleNotification( note:INotification ):void
 	{
 		switch ( note.getName() )
 		{
 			case AppFacade.QUOTES_PARSED :
-				trace($notification.getName());
+				trace(note.getName());
 			break;
 			case AppFacade.ACTIVATE_QUOTE :
-				trace($notification.getName());
+				trace(note.getName());
 			break;
 		}
 	}

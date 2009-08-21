@@ -7,14 +7,14 @@ import app.AppFacade;
 import delorum.utils.Sequence;
 
 
-public class QuoteSSProxy extends Proxy implements IProxy
+public class QuoteProxy extends Proxy implements IProxy
 {
 	public static const NAME:String = "quotess_proxy";
 	
 	private var _sequence:Sequence;
 	
 	// Constructor
-	public function QuoteSSProxy( ):void
+	public function QuoteProxy( ):void
 	{ 
 		super( NAME );
 	};
@@ -28,10 +28,10 @@ public class QuoteSSProxy extends Proxy implements IProxy
 		var len:uint = $json.quotes.length;
 		for ( var i:uint=0; i<len; i++ ) 
 		{
-			var quoteSSVo:QuoteSSVo 	= new QuoteSSVo( $json.quotes[i] );
-			quoteSSVo.index				= i;
+			var quoteVo:QuoteVo 	= new QuoteVo( $json.quotes[i] );
+			quoteVo.index			= i;
 			
-			quotes.push( quoteSSVo );
+			quotes.push( quoteVo );
 		}
 
 		_sequence = new Sequence( quotes );
