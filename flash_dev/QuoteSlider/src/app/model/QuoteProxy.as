@@ -42,7 +42,22 @@ public class QuoteProxy extends Proxy implements IProxy
 	
 	public function activateQuoteByIndex ( $index:Number ):void
 	{
+
 		if( _sequence.changeItemByIndex( $index ) )
+			sendNotification( AppFacade.ACTIVATE_QUOTE, _sequence.currentItem );
+	}
+	
+	public function previous (  ):void
+	{
+
+		if( _sequence.prev(  ) )
+			sendNotification( AppFacade.ACTIVATE_QUOTE, _sequence.currentItem );
+	}
+	
+	public function next (  ):void
+	{
+
+		if( _sequence.next(  ) )
 			sendNotification( AppFacade.ACTIVATE_QUOTE, _sequence.currentItem );
 	}
 	
