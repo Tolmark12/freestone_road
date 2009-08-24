@@ -54,13 +54,13 @@ public class Stone extends Sprite
 	
 	private function _onMouseOver ( e:Event ):void {
 		if( !isActive )
-			this.alpha = 1;
+		;
 	}
 	
 	private function _onMouseOut ( e:Event ):void
 	{
 		if( !isActive )
-			this.alpha = 0.7;
+		;
 	}
 	
 }
