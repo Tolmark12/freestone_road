@@ -17,7 +17,7 @@ public class Clicks extends SimpleCommand implements ICommand
 		switch (note.getName() as String)
 		{
 			case AppFacade.QUOTE_CLICKED :
-				quoteSSProxy.activateStoneByIndex( note.getBody() as Number );
+				quoteSSProxy.activateQuoteByIndex( note.getBody() as Number );
 			break;
 		}
 	}

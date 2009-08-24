@@ -42,7 +42,7 @@ public class Quote extends Sprite
 	*/
 	public function changeQuote ( $quoteVo:QuoteVo ):void
 	{
-		
+		trace("ouch!");
 		// Activate the buttton
 		if( _currentBtn != null )
 			_currentBtn.deactivate();
