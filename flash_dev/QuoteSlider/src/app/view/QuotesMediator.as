@@ -23,6 +23,8 @@ public class QuotesMediator extends Mediator implements IMediator
 		$stage.addChild(_quote);
 		
 		_quote.addEventListener(QuoteEvent.QUOTE_CLICKED, _onQuoteClick);
+		_quote.addEventListener(QuoteEvent.NEXT, _onQuoteClick);
+		_quote.addEventListener(QuoteEvent.PREVIOUS, _onQuoteClick);
    	}
 	
 	// PureMVC: List notifications
@@ -49,8 +51,20 @@ public class QuotesMediator extends Mediator implements IMediator
 	// _____________________________ Events
 	
 	private function _onQuoteClick ( e:QuoteEvent ):void
-	{
-		sendNotification( AppFacade.QUOTE_CLICKED, e.index );
+	{		
+		switch(e.type)
+		{
+			case "quote_clicked" :
+				sendNotification( AppFacade.QUOTE_CLICKED, e.index );
+			break;
+			case "previous" :
+				sendNotification( AppFacade.PREVIOUS, e.index );
+			break;
+			case "next" :
+				sendNotification( AppFacade.NEXT, e.index );
+			break;
+		}
+		
 	}
 	
 }

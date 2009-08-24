@@ -19,6 +19,8 @@ public class AppFacade extends Facade implements IFacade
 	
 	// User events
 	public static const QUOTE_CLICKED							= "quote_clicked";
+	public static const PREVIOUS								= "previous";
+	public static const NEXT									= "next";
 	
 	
 	public function AppFacade( key:String ):void
@@ -52,6 +54,8 @@ public class AppFacade extends Facade implements IFacade
 		
 		// Click Commands
 		registerCommand( QUOTE_CLICKED, Clicks );
+		registerCommand( PREVIOUS, Clicks );
+		registerCommand( NEXT, Clicks );
 	}
 }
 }

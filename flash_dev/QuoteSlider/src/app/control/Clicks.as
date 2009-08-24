@@ -19,6 +19,12 @@ public class Clicks extends SimpleCommand implements ICommand
 			case AppFacade.QUOTE_CLICKED :
 				quoteSSProxy.activateQuoteByIndex( note.getBody() as Number );
 			break;
+			case AppFacade.PREVIOUS :
+				quoteSSProxy.activateQuoteByIndex( note.getBody() as Number );
+			break;
+			case AppFacade.NEXT :
+				quoteSSProxy.activateQuoteByIndex( note.getBody() as Number );
+			break;
 		}
 	}
 }
