@@ -14,6 +14,7 @@ public class Stone extends Sprite
 	public function Stone(  ):void
 	{
 		this.buttonMode = true;
+		
 		this.addEventListener( MouseEvent.CLICK, _onClick, false,0,true );
 		this.addEventListener( MouseEvent.MOUSE_OVER, _onMouseOver, false,0,true );
 		this.addEventListener( MouseEvent.MOUSE_OUT, _onMouseOut, false,0,true );
@@ -21,16 +22,13 @@ public class Stone extends Sprite
 	
 	// _____________________________ API
 	
-	public function build ( $stoneVo:StoneVo ):void
-	{		
-		this.graphics.beginFill( 0xFF0000, 0.25 );
-		this.graphics.drawCircle( 0, 0, 10 );
-		this.graphics.endFill();
-		this.x = $stoneVo.x * 3;
-		this.y = $stoneVo.y;
-		
+	public function build ( $stoneVo:StoneVo, $i:Number ):void
+	{			
 		var stoneGraphic:StoneGraphic_swc = new StoneGraphic_swc();
-		stoneGraphic.gotoAndStop( Math.round( Math.random() * stoneGraphic.totalFrames ) );
+		stoneGraphic.gotoAndStop( $i );
+		
+		this.x = $stoneVo.x;
+		this.y = $stoneVo.y;
 		this.addChild(stoneGraphic);
 	}
 	

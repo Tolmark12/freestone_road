@@ -1,12 +1,10 @@
 {
 	"stones" : [
-		{ "x" : 10, "y" : 20, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 20, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 30, "y" : 0, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 40, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 50, "y" : 30, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 60, "y" : 10, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 70, "y" : 20, "h1" : "think three steps ahead", "sub" : "Stategic Planning" },
-		{ "x" : 80, "y" : 0, "h1" : "think three steps ahead", "sub" : "Stategic Planning" }
+		{ "x" : 0, 		"y" : 15, "title" : "We help you define your own best path.", "attribute" : "Strategic Planning" },
+		{ "x" : 50, 	"y" : 10, "title" : "We help you identify current  strengths and weaknesses.", "attribute" : "Business/Channel/Site Assessments" },
+		{ "x" : 100, 	"y" : 0, "title" : "We help you build a consistent, compelling, & customer-focused brand.", "attribute" : "Brand Development" },
+		{ "x" : 150, 	"y" : 10, "title" : "We help you leverage that giant pile of data you’ve been collecting.", "attribute" : "Data-Driven Growth Forecasting" },
+		{ "x" : 200, 	"y" : 20, "title" : "We help you squeeze more out of every dollar you spend.", "attribute" : "Program Prioritization and Road Mapping" },
+		{ "x" : 250, 	"y" : 10, "title" : "We help you surprise and delight your customers.", "attribute" : "Customer Experience Optimization" }
 	]
 }
