@@ -47,7 +47,7 @@ public class Stones extends Sprite
 		}
 		
 		_title.y = _stonesHolder.y - _PADDING*2;
-		_title.width = _stonesHolder.width + _PADDING;
+		_title.txt.width = _stonesHolder.width + _PADDING;
 		
 		_attribute.y = _stonesHolder.y + _stonesHolder.height;
 	}
