@@ -29,10 +29,10 @@ public class Quote extends Sprite
 		var len:uint = $quotesList.length;
 		for ( var i:uint=0; i<len; i++ ) 
 		{
-			trace( "?" );
 			var quoteVo:QuoteVo 			= $quotesList[i];
 			var numberButton:NumberButton 	= new NumberButton( i );
-			numberButton.x = i * 25;
+			numberButton.x 					= i * 20;
+			numberButton.deactivate();
 			_buttonsHolder.addChild( numberButton );
 		}
 	}

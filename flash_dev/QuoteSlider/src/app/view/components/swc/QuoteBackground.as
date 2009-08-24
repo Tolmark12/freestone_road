@@ -30,7 +30,7 @@ public class QuoteBackground extends Sprite
 		this.filters = [shadow];
 		
 		// Temp
-		Tweener.addTween( this, { scaleX: 0.4, scaleY:1.8, time:8, transition:"EaseInOutQuint"} );
+		//Tweener.addTween( this, { scaleX: 0.4, scaleY:1.8, time:8, transition:"EaseInOutQuint"} );
 	}
 
 }
