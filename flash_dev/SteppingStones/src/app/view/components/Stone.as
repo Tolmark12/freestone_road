@@ -50,12 +50,19 @@ public class Stone extends Sprite
 	// _____________________________ Events
 	
 	private function _onClick ( e:Event ):void {
+		/*
 		var stoneEvent = new StoneEvent( StoneEvent.STONE_CLICK, true );
 		stoneEvent.index = this.index;
 		dispatchEvent( stoneEvent );
+		*/
 	}
 	
 	private function _onMouseOver ( e:Event ):void {
+	
+		var stoneEvent = new StoneEvent( StoneEvent.STONE_CLICK, true );
+		stoneEvent.index = this.index;
+		dispatchEvent( stoneEvent );
+		
 		if( !isActive )
 		{
 			_colorTransform = _stoneGraphic.transform.colorTransform;
