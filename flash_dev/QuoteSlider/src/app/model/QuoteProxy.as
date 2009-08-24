@@ -1,11 +1,11 @@
 package app.model
 {
+	
 import org.puremvc.as3.multicore.interfaces.IProxy;
 import org.puremvc.as3.multicore.patterns.proxy.Proxy;
 import app.model.vo.*;
 import app.AppFacade;
 import delorum.utils.Sequence;
-
 
 public class QuoteProxy extends Proxy implements IProxy
 {
@@ -17,7 +17,7 @@ public class QuoteProxy extends Proxy implements IProxy
 	public function QuoteProxy( ):void
 	{ 
 		super( NAME );
-	};
+	}
 	
 	// _____________________________ API
 	

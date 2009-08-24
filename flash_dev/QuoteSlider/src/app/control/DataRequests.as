@@ -13,17 +13,15 @@ public class DataRequests extends SimpleCommand implements ICommand
 	{
 		// Proxies
 		var externalDataProxy:ExternalDataProxy = facade.retrieveProxy( ExternalDataProxy.NAME ) as ExternalDataProxy;
-		var quoteSSProxy:QuoteProxy			= facade.retrieveProxy( QuoteProxy.NAME ) as QuoteProxy;
+		var quoteSSProxy:QuoteProxy				= facade.retrieveProxy( QuoteProxy.NAME ) as QuoteProxy;
 		
 		// Proxy Commands
 		switch ( $notification.getName() )
 		{
 			case AppFacade.CONFIG_DATA_LOADED_AND_PARSED :
-				//trace($notification.getName());
 				externalDataProxy.loadQuoteSSData();
 			break;
 			case AppFacade.QUOTESS_DATA_LOADED :
-				//trace($notification.getName());
 				quoteSSProxy.init( $notification.getBody() as Object );
 			break;
 		}

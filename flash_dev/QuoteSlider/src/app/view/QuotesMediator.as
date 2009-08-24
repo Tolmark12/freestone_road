@@ -8,23 +8,26 @@ import app.view.components.*;
 import flash.events.*;
 import app.view.components.events.*;
 import flash.display.Sprite;
+import app.view.components.Quote
 
 public class QuotesMediator extends Mediator implements IMediator
 {	
 	public static const NAME:String = "qutoes_mediator";
 	
+	private var _quote:Quote		 = new Quote();
+	
 	public function QuotesMediator( $stage:Sprite ):void
 	{
 		super( NAME );
-		Quote;
-		trace("Quotes Mediator");
+		
+		$stage.addChild(_quote);
    	}
 	
 	// PureMVC: List notifications
 	override public function listNotificationInterests():Array
 	{
 		return [ AppFacade.QUOTES_PARSED,
-		 		 AppFacade.ACTIVATE_QUOTES ];
+		 		 AppFacade.ACTIVATE_QUOTE ];
 	}
 	
 	// PureMVC: Handle notifications
@@ -33,19 +36,19 @@ public class QuotesMediator extends Mediator implements IMediator
 		switch ( note.getName() )
 		{
 			case AppFacade.QUOTES_PARSED :
-				trace(note.getName());
+				_quote.build( note.getBody() as Array);
 			break;
 			case AppFacade.ACTIVATE_QUOTE :
-				trace(note.getName());
+				_quote.changeQuote( note.getBody() as QuoteVo);
 			break;
 		}
 	}
 	
 	// _____________________________ Events
 	
-	private function _onQuoteClick ( e:StoneEvent ):void
+	private function _onQuoteClick ( e:QuoteEvent ):void
 	{
-		sendNotification( AppFacade.QUOTE_CLICK, e.index );
+		sendNotification( AppFacade.QUOTE_CLICKED, e.index );
 	}
 	
 }
