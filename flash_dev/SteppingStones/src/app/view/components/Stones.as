@@ -36,7 +36,7 @@ public class Stones extends Sprite
 		var stoneVo:StoneVo;
 		var stone:Stone;
 		
-		for ( var i:uint=0; i<$stones.length; i++ ) 
+		for ( var i:uint = 0; i<$stones.length; i++ ) 
 		{
 			stoneVo 	= $stones[i];
 			stone 		= new Stone();

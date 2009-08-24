@@ -5,11 +5,15 @@ import flash.display.Sprite;
 import app.model.vo.StoneVo;
 import flash.events.*;
 import app.view.components.events.StoneEvent;
+import flash.geom.ColorTransform;
 
 public class Stone extends Sprite
 {
 	public var index:Number;
 	public var isActive:Boolean;
+	
+	private var _stoneGraphic:StoneGraphic_swc;
+	private var _colorTransform:ColorTransform;
 	
 	public function Stone(  ):void
 	{
@@ -24,12 +28,11 @@ public class Stone extends Sprite
 	
 	public function build ( $stoneVo:StoneVo, $i:Number ):void
 	{			
-		var stoneGraphic:StoneGraphic_swc = new StoneGraphic_swc();
-		stoneGraphic.gotoAndStop( $i );
-		
+		_stoneGraphic = new StoneGraphic_swc();
+		_stoneGraphic.gotoAndStop( $i );
 		this.x = $stoneVo.x;
 		this.y = $stoneVo.y;
-		this.addChild(stoneGraphic);
+		this.addChild(_stoneGraphic);
 	}
 	
 	public function activate (  ):void
@@ -54,13 +57,21 @@ public class Stone extends Sprite
 	
 	private function _onMouseOver ( e:Event ):void {
 		if( !isActive )
-		;
+		{
+			_colorTransform = _stoneGraphic.transform.colorTransform;
+			_colorTransform.color = 0x000000;
+			_stoneGraphic.transform.colorTransform = _colorTransform;
+		}
 	}
 	
 	private function _onMouseOut ( e:Event ):void
 	{
 		if( !isActive )
-		;
+		{
+			_colorTransform = _stoneGraphic.transform.colorTransform;
+			_colorTransform.color = 0x6598FF;
+			_stoneGraphic.transform.colorTransform = _colorTransform;
+		}
 	}
 	
 }
