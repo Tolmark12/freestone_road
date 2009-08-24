@@ -22,7 +22,7 @@ public class QuotesMediator extends Mediator implements IMediator
 		
 		$stage.addChild(_quote);
 		
-		_quote.addEventListener(QuoteEvent.QUOTE_CLICKED, _onQuoteClicked);
+		_quote.addEventListener(QuoteEvent.QUOTE_CLICKED, _onQuoteClick);
    	}
 	
 	// PureMVC: List notifications

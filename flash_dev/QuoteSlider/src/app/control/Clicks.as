@@ -12,12 +12,12 @@ public class Clicks extends SimpleCommand implements ICommand
 
 	override public function execute( note:INotification ):void
 	{
-		var stoneProxy:StoneProxy = facade.retrieveProxy( StoneProxy.NAME ) as StoneProxy;
+		var quoteSSProxy:QuoteProxy	= facade.retrieveProxy( QuoteProxy.NAME ) as QuoteProxy;
 		
 		switch (note.getName() as String)
 		{
-			case AppFacade.STONE_CLICK :
-				stoneProxy.activateStoneByIndex( note.getBody() as Number );
+			case AppFacade.QUOTE_CLICKED :
+				quoteSSProxy.activateStoneByIndex( note.getBody() as Number );
 			break;
 		}
 	}
