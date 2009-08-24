@@ -49,7 +49,6 @@ public class NumberButton extends Sprite
 		var size:Number 				= 10;
 		this.graphics.beginFill(0xFF0000,0);
 		this.graphics.drawRect(size/-2,size/-2 +5,size*2,size*2);
-		trace( this.width + '  :  ' + this.alpha + '  :  ' + this.visible );
 	}
 	
 	// _____________________________ Events
