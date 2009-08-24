@@ -48,6 +48,7 @@ public class QuotesMediator extends Mediator implements IMediator
 	
 	private function _onQuoteClick ( e:QuoteEvent ):void
 	{
+		trace("ouch!");
 		sendNotification( AppFacade.QUOTE_CLICKED, e.index );
 	}
 	

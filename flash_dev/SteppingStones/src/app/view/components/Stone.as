@@ -23,11 +23,12 @@ public class Stone extends Sprite
 	
 	public function build ( $stoneVo:StoneVo ):void
 	{		
-		this.graphics.beginFill( 0x999999, 0.5 );
-		this.graphics.drawCircle( 0, 0, 15 );
+		this.graphics.beginFill( 0xFF0000, 0.25 );
+		this.graphics.drawCircle( 0, 0, 10 );
 		this.graphics.endFill();
 		this.x = $stoneVo.x * 3;
 		this.y = $stoneVo.y;
+		
 		var stoneGraphic:StoneGraphic_swc = new StoneGraphic_swc();
 		stoneGraphic.gotoAndStop( Math.round( Math.random() * stoneGraphic.totalFrames ) );
 		this.addChild(stoneGraphic);
@@ -64,7 +65,6 @@ public class Stone extends Sprite
 			this.alpha = 0.7;
 	}
 	
-
 }
 
 }
