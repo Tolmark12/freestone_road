@@ -6,6 +6,8 @@ public class QuoteEvent extends Event
 {
 	// Events
 	public static const QUOTE_CLICKED:String = "quote_clicked";
+	public static const NEXT:String = "next";
+	public static const PREVIOUS:String = "previous";
 	
 	// Data
 	public var index:uint;

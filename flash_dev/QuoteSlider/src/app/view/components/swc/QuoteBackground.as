@@ -28,9 +28,11 @@ public class QuoteBackground extends Sprite
 
 		var shadow:DropShadowFilter = new DropShadowFilter(distance,angle,color,alpha,blurX,blurY,strength,quality,inner,knockout);
 		this.filters = [shadow];
-		
-		// Temp
-		//Tweener.addTween( this, { scaleX: 0.4, scaleY:1.8, time:8, transition:"EaseInOutQuint"} );
+	}
+	
+	public function resize ( $width:Number, $height:Number, $time:Number=1 ):void
+	{
+		Tweener.addTween( this, { width:$width, height:$height, time:$time, transition:"EaseInOutQuint"} );
 	}
 
 }

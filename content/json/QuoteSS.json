@@ -1,12 +1,12 @@
 {
 	"quotes" : [
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" },
-		{ "question":"This is a question", "quote":"This is a quote", "logoPath":"", "author":"This is the quote author" }
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.” “Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  },
+		{ "logoFrame":"_rei", "author":"Jonathan Miller", "quote":"“Lorem ipsum delorum, there is only one true measure of a consultant's effectiveness  honest and direct  feedback from the clients they serve.  We ask, we listen, and we learn – every day.  Here's what we're been hearing recently.”"  }
 	]
 }

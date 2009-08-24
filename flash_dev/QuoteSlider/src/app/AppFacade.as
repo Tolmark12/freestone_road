@@ -50,7 +50,8 @@ public class AppFacade extends Facade implements IFacade
 		registerCommand( CONFIG_DATA_LOADED_AND_PARSED, DataRequests );
 		registerCommand( QUOTESS_DATA_LOADED, DataRequests );
 		
-		// 
+		// Click Commands
+		registerCommand( QUOTE_CLICKED, Clicks );
 	}
 }
 }
