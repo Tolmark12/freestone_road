@@ -8,6 +8,7 @@ import flash.text.*
 public class Stones extends Sprite
 {
 	private static const _PADDING			= 35;
+	public static var STAGE_WIDTH:Number 	= 300;
 	
 	private var _stonesHolder:Sprite 		= new Sprite();
 	private var _currentItem:Stone;
@@ -17,7 +18,7 @@ public class Stones extends Sprite
 	
 	public function Stones():void
 	{
-		_stonesHolder.x = 100;
+		//_stonesHolder.x = 100;
 		_stonesHolder.y = 100;
 		
 		_title.txt.autoSize 	= TextFieldAutoSize.LEFT;
@@ -32,6 +33,7 @@ public class Stones extends Sprite
 	
 	public function build ( $stones:Array ):void
 	{
+		STAGE_WIDTH = this.stage.stageWidth;
 		var len:uint = $stones.length;
 		var stoneVo:StoneVo;
 		var stone:Stone;
@@ -46,8 +48,8 @@ public class Stones extends Sprite
 			_stonesHolder.addChild( stone );
 		}
 		
-		_title.y = _stonesHolder.y - _PADDING*2;
-		_title.txt.width = _stonesHolder.width + _PADDING;
+		//_title.y = _stonesHolder.y - _PADDING*2;
+		_title.txt.width = this.stage.stageWidth;;
 		
 		_attribute.y = _stonesHolder.y + _stonesHolder.height;
 	}
@@ -63,8 +65,13 @@ public class Stones extends Sprite
 		_title.txt.text = $stoneVo.title;
 		_attribute.txt.text = $stoneVo.attribute;
 		
-		_title.x = _stonesHolder.x + (_stonesHolder.width - _title.width)/2;
-		_attribute.x = (_stonesHolder.x + _stonesHolder.width) - _attribute.width;
+		//_title.x = _stonesHolder.x + (_stonesHolder.width - _title.width)/2;
+		_attribute.x = $stoneVo.x - _attribute.width/2;
+		if( _attribute.x < 0 )
+			_attribute.x = 0;
+		if( _attribute.x + _attribute.width > STAGE_WIDTH )
+			_attribute.x = STAGE_WIDTH - _attribute.width;
+			
 	}
 
 }

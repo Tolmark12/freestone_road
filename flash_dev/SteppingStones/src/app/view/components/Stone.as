@@ -33,6 +33,10 @@ public class Stone extends Sprite
 		this.x = $stoneVo.x;
 		this.y = $stoneVo.y;
 		this.addChild(_stoneGraphic);
+		
+		var w:Number = 48;
+		this.graphics.beginFill(0xFF0000, 0);
+		this.graphics.drawRect(-w/2,-w/2, w, w)
 	}
 	
 	public function activate (  ):void

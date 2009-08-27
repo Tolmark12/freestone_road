@@ -3,8 +3,9 @@
 
 <html>
 	<head>
-		<title><?php echo $pageTitle; ?></title>
+		<title><?= $pageTitle ?></title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<?= $js ?>
 		<script src="js/cufon.js" type="text/javascript"></script>
 		<script src="js/Clarendon_500.font.js" type="text/javascript"></script>
 		<script type="text/javascript">
@@ -21,7 +22,7 @@
 <body>
 	<!-- id='selected' for selecting which link is currently selected-->
 	<div id='wrapper'>
-		<div class='header' id='<?php echo $currentPage; ?>'>
+		<div class='header' id='<?= $currentPage ?>'>
 			<div id='top-nav'>
 				<img src="images/nav_top_piece.jpg" id='nav-top-piece'>
 				<a href='index.php'><img id='nav-logo' src="images/logo.png" width="119" height="74" alt="Logo"></a>

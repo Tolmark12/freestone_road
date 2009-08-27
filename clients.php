@@ -14,6 +14,8 @@
 				</div>		
 			</div>
 			<div id='main-column2'>	
-				<p>Flash quote module goes here</p>
+				<div id="flash-div">
+					
+				</div>
 			</div>
 		</div>

@@ -26,11 +26,8 @@
 				</div>		
 			</div>
 			<div id='main-column2'>	
-				<div class='block' id='top'>
-					<h2>We Help You <span id='blue-inline-title'>Think Three Steps Ahead</span></h2>
-					<div id='images-block'>
-						<br /><br />Stones Flash/Image here<br /><br />
-					</div>
+				<div id="flash-div">
+					
 				</div>
 				<div class='block' id='bottom'>
 					<h2>The Service We Offer:</h2>

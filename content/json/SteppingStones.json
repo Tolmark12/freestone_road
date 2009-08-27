@@ -1,10 +1,10 @@
 {
 	"stones" : [
-		{ "x" : 0, 		"y" : 15, "title" : "We help you <colored>define your own best path.</colored>", "attribute" : "Strategic Planning" },
-		{ "x" : 50, 	"y" : 10, "title" : "We help you <colored>identify current  strengths and weaknesses.</colored>", "attribute" : "Business/Channel/Site Assessments" },
-		{ "x" : 100, 	"y" : 0, "title" : "We help you <colored>build a consistent, compelling, & customer-focused brand.</colored>", "attribute" : "Brand Development" },
-		{ "x" : 150, 	"y" : 10, "title" : "We help you <colored>leverage that giant pile of data you’ve been collecting.</colored>", "attribute" : "Data-Driven Growth Forecasting" },
-		{ "x" : 200, 	"y" : 20, "title" : "We help you <colored>squeeze more out of every dollar you spend.</colored>", "attribute" : "Program Prioritization and Road Mapping" },
-		{ "x" : 250, 	"y" : 10, "title" : "We help you <colored>surprise and delight your customers.</colored>", "attribute" : "Customer Experience Optimization" }
+		{ "x" : 7, 		"y" : 15, "title" : "We help you <blue>define your own best path.</blue>", "attribute" : "Strategic Planning" },
+		{ "x" : 50, 	"y" : 10, "title" : "We help you <blue>identify current  strengths and weaknesses.</blue>", "attribute" : "Business/Channel/Site Assessments" },
+		{ "x" : 100, 	"y" : 0, "title" : "We help you <blue>build a consistent, compelling, & customer-focused brand.</blue>", "attribute" : "Brand Development" },
+		{ "x" : 150, 	"y" : 10, "title" : "We help you <blue>leverage that giant pile of data you’ve been collecting.</blue>", "attribute" : "Data-Driven Growth Forecasting" },
+		{ "x" : 200, 	"y" : 20, "title" : "We help you <blue>squeeze more out of every dollar you spend.</blue>", "attribute" : "Program Prioritization and Road Mapping" },
+		{ "x" : 250, 	"y" : 10, "title" : "We help you <blue>surprise and delight your customers.</blue>", "attribute" : "Customer Experience Optimization" }
 	]
 }

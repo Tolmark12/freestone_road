@@ -7,8 +7,20 @@ $section = $_GET['page'];
 
 // Whether to add the default header and footer
 $addHeaderAndFooter = true;
+$js	= "";
 
+// Flash embed scripts
 
+// STONES:
+$stonesFlash = '<script type="text/javascript" src="js/swfobject/swfobject.js"></script>' 
+			 . '<script type="text/javascript">'
+			 . 'swfobject.embedSWF("SteppingStones.swf", "flash-div", "350", "200", "9.0.0", "js/swfobject/expressInstall.swf");'
+			 . '</script>';
+			
+$quoteFlash	 = '<script type="text/javascript" src="js/swfobject/swfobject.js"></script>' 
+			 . '<script type="text/javascript">'
+			 . 'swfobject.embedSWF("QuoteSS.swf", "flash-div", "350", "400", "9.0.0", "js/swfobject/expressInstall.swf");'
+			 . '</script>';
 
 switch ( strtolower($section) ) {
 	
@@ -26,6 +38,7 @@ switch ( strtolower($section) ) {
 		$currentPage	= "services";
 		$phpPage		= "services.php";
 		$keywords		= "";
+		$js				= $stonesFlash;
 		break;
 		
 		// PRICING //
@@ -34,6 +47,7 @@ switch ( strtolower($section) ) {
 		$currentPage	= "pricing";
 		$phpPage		= "pricing.php";
 		$keywords		= "";
+		$js				= $quoteFlash;
 		break;
 		
 		// CLIENTS //
@@ -42,6 +56,7 @@ switch ( strtolower($section) ) {
 		$currentPage	= "clients";
 		$phpPage		= "clients.php";
 		$keywords		= "";
+		$js				= $quoteFlash;
 		break;
 		
 		// ABOUT US //
