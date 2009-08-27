@@ -87,8 +87,8 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 
 /********* Right *********/
 
-#top.block					{margin-bottom: 100px; margin-top: 50px;}
-#bottom.block				{margin-top: 100px;}
+#top.block					{margin-bottom: 100px; margin-top: 100px;}
+#bottom.block				{margin-top: 35px; margin-left: 40px}
 #bottom.block h2			{color: #969799; font-size: 14px;}
 
 /****Home****/

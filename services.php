@@ -27,7 +27,7 @@
 			</div>
 			<div id='main-column2'>	
 				<div id="flash-div">
-					
+				
 				</div>
 				<div class='block' id='bottom'>
 					<h2>The Service We Offer:</h2>
