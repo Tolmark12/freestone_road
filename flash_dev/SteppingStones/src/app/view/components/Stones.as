@@ -48,10 +48,9 @@ public class Stones extends Sprite
 			_stonesHolder.addChild( stone );
 		}
 		
-		//_title.y = _stonesHolder.y - _PADDING*2;
 		_title.txt.width = this.stage.stageWidth;;
-		
-		_attribute.y = _stonesHolder.y + _stonesHolder.height;
+		_stonesHolder.x = STAGE_WIDTH/2 - _stonesHolder.width/2;
+		_attribute.y = _stonesHolder.y + _stonesHolder.height - 20;
 	}
 	
 	public function activateItem ( $stoneVo:StoneVo ):void
@@ -62,16 +61,26 @@ public class Stones extends Sprite
 		_currentItem = _stonesHolder.getChildAt( $stoneVo.index ) as Stone;
 		_currentItem.activate();
 		
-		_title.txt.text = $stoneVo.title;
+		_setText($stoneVo.title);
 		_attribute.txt.text = $stoneVo.attribute;
 		
 		//_title.x = _stonesHolder.x + (_stonesHolder.width - _title.width)/2;
-		_attribute.x = $stoneVo.x - _attribute.width/2;
+		_attribute.x = _stonesHolder.x +$stoneVo.x - _attribute.width/2;
 		if( _attribute.x < 0 )
 			_attribute.x = 0;
 		if( _attribute.x + _attribute.width > STAGE_WIDTH )
 			_attribute.x = STAGE_WIDTH - _attribute.width;
 			
+	}
+	
+	private function _setText ( $text:String ):void
+	{
+		var style:StyleSheet = new StyleSheet();
+		var blue:Object = new Object();
+		blue.color = "#68a2c5";
+		style.setStyle("blue", blue);
+		_title.txt.styleSheet = style;
+		_title.txt.htmlText= $text;
 	}
 
 }
