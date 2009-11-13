@@ -30,6 +30,7 @@ switch ( strtolower($section) ) {
 		$currentPage	= "home";
 		$phpPage		= "home.php";
 		$keywords		= "";
+		$js				= $stonesFlash;
 		break;
 		
 		// SERVICES //

@@ -69,13 +69,25 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 .dashed-block h1			{padding-top: 10px; padding-bottom: 0px;}
 .dashed-block p				{font-size: 14px;  line-height: 23px; padding-bottom: 0px;}
 
+/*******Home*******/
+#left-bottom-home.block		{margin-bottom: 60px; margin-left: 12px; font-size: 12px;}
+#left-bottom-home.block h1	{margin-top: 10px; margin-left: -10px; font-size: 19px;}
+#left-bottom-home.block ul	{list-style-image:url('arrow.gif');}
+#left-bottom-home.block li	{line-height: 26px; letter-spacing: .55px;}
+
+/*****Services*****/
+#left-bottom-services.block		{margin-bottom: 60px; margin-left: 12px; font-size: 12px;}
+#left-bottom-services.block h2	{margin-top: 10px; margin-left: -10px;}
+#left-bottom-services.block ul	{list-style-image:url('arrow.gif');}
+#left-bottom-services.block li	{line-height: 23px; letter-spacing: .55px;}
+
 /****Pricing****/
 #bottom-pricing.block		{margin-bottom: 175px;}
 #bottom-pricing.block p		{font-size: 14px; margin-top: 40px; letter-spacing: .75px; line-height: 20px;}
 #bottom-pricing.block a		{color: #729EBB;}
 
 /****Clients****/
-#left-bottom-clients.block	{margin: 60px 0px;}
+#left-bottom-clients.block	{margin: 30px 0px 60px 0px;}
 #left-bottom-clients.block p{font-size: 16px;}
 #images-block-haveworked	{margin: 0px -20px;}
 #images-block-haveworked img{margin: 14px 20px 14px 20px;}				
@@ -95,6 +107,12 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 /****Home****/
 #images-block-workedwith img{margin: 12px;}
 
+/*****Services*****/
+#right-bottom-services.block	{margin-bottom: 60px; margin-left: 12px; font-size: 12px;}
+#right-bottom-services.block h2	{margin-top: 10px; margin-left: -10px;}
+#right-bottom-services.block ul	{list-style-image:url('arrow.gif');}
+#right-bottom-services.block li	{line-height: 23px; letter-spacing: .55px;}
+
 /****About Us****/
 .sub-column1-aboutus		{float: left; width: 130px;  padding: 0px 15px 10px 0px; border-right: 1.5px dashed black;}
 .sub-column2-aboutus		{float: left; width: 130px;  padding: 0px 15px;}
@@ -105,6 +123,16 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 .sub-column2-aboutus p		{font-size: 12px; line-height: 20px;}
 #top-aboutus.block			{width: 325px;}
 #top-right-aboutus-title	{padding-top: 85px; padding-bottom: 30px; font-size: 17px; letter-spacing: .75px; line-height: 28px; font-family: Georgia; font-style: italic;}
+
+/****Contact****/
+.sub-column1-contact		{float: left; width: 130px;  padding: 0px 15px 10px 0px; border-right: 1.5px dashed black;}
+.sub-column2-contact		{float: left; width: 130px;  padding: 0px 15px;}
+.sub-column1-contact p span#bold
+							{font-weight: bold; letter-spacing: .5px;}
+.sub-column2-contact a		{color: #729EBB;}					
+.sub-column1-contact p		{font-size: 12px; line-height: 20px;}
+.sub-column2-contact p		{font-size: 12px; line-height: 20px;}
+#top-contact				{margin-top: 40px; margin-right: 40px;}
 
 /****** Half-Size Column ******/
 .sub-column1				{float: left; width: 200px; display: inline; margin: 10px 0px;}
