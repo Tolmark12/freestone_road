@@ -19,9 +19,9 @@ public class Stones extends Sprite
 	public function Stones():void
 	{
 		//_stonesHolder.x = 100;
-		_stonesHolder.y = 100;
+		_stonesHolder.y = 60;
 		
-		_title.txt.autoSize 	= TextFieldAutoSize.LEFT;
+		_title.txt.autoSize 	= TextFieldAutoSize.CENTER;
 		_attribute.txt.autoSize = TextFieldAutoSize.LEFT;
 		
 		this.addChild(_title);
@@ -64,7 +64,7 @@ public class Stones extends Sprite
 		_setText($stoneVo.title);
 		_attribute.txt.text = $stoneVo.attribute;
 		
-		//_title.x = _stonesHolder.x + (_stonesHolder.width - _title.width)/2;
+		_title.x = 0;
 		_attribute.x = _stonesHolder.x +$stoneVo.x - _attribute.width/2;
 		if( _attribute.x < 0 )
 			_attribute.x = 0;
