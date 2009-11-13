@@ -22,7 +22,11 @@
 				</div>		
 			</div>
 			<div id='main-column2'>	
-				<div class='block' id='top'>
+				<div id="flash-div">
+				
+				</div>
+				<!-- 
+				<div class='block' id='top'>					
 					<span id='blue-title'>
 						<a href='index.php?page=services'>Services We Offer</a>
 					</span>
@@ -30,6 +34,7 @@
 						<a href='index.php?page=services'><img src='images/stone_arrow.gif' /></a>
 					</span>
 				</div>
+				-->
 				<div class='block' id='bottom'>
 					<h2>Clients We've Helped</h2>
 					<div id='images-block-workedwith'>
