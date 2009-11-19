@@ -72,13 +72,13 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 /*******Home*******/
 #left-bottom-home.block		{margin-bottom: 60px; margin-left: 12px; font-size: 12px;}
 #left-bottom-home.block h1	{margin-top: 10px; margin-left: -10px; font-size: 19px;}
-#left-bottom-home.block ul	{list-style-image:url('arrow.gif');}
+#left-bottom-home.block ul	{list-style-image:url('images/grey_bullet.gif');}
 #left-bottom-home.block li	{line-height: 26px; letter-spacing: .55px;}
 
 /*****Services*****/
 #left-bottom-services.block		{margin-bottom: 60px; margin-left: 12px; font-size: 12px;}
 #left-bottom-services.block h2	{margin-top: 10px; margin-left: -10px;}
-#left-bottom-services.block ul	{list-style-image:url('arrow.gif');}
+#left-bottom-services.block ul	{list-style-image:url('images/grey_bullet.gif');}
 #left-bottom-services.block li	{line-height: 23px; letter-spacing: .55px;}
 
 /****Pricing****/
@@ -110,7 +110,7 @@ h2				{font-size: 16px; margin: 5px 0; color: #716154;}
 /*****Services*****/
 #right-bottom-services.block	{margin-bottom: 60px; margin-left: 12px; font-size: 12px;}
 #right-bottom-services.block h2	{margin-top: 10px; margin-left: -10px;}
-#right-bottom-services.block ul	{list-style-image:url('arrow.gif');}
+#right-bottom-services.block ul	{list-style-image:url('images/grey_bullet.gif');}
 #right-bottom-services.block li	{line-height: 23px; letter-spacing: .55px;}
 
 /****About Us****/
