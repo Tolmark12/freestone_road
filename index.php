@@ -24,15 +24,6 @@ $quoteFlash	 = '<script type="text/javascript" src="js/swfobject/swfobject.js"><
 
 switch ( strtolower($section) ) {
 	
-		// HOME //
-		case 'home':								
-		$pageTitle		= "Home";
-		$currentPage	= "home";
-		$phpPage		= "home.php";
-		$keywords		= "";
-		$js				= $stonesFlash;
-		break;
-		
 		// SERVICES //
 		case 'services':								
 		$pageTitle		= "Services";
@@ -106,6 +97,7 @@ switch ( strtolower($section) ) {
 	$pageTitle		= "Home";
 	$currentPage	= "home";
 	$phpPage		= "home.php";
+	$js				= $stonesFlash;
 	$keywords 		= "";
 
 }
